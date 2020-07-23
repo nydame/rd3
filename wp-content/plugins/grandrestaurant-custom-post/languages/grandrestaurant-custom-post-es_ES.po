@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-14 10:10+0200\n"
+"PO-Revision-Date: 2017-09-14 11:33+0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../gallery/tg-gallery.php:58
+#, fuzzy
+msgid "Gallery Images"
+msgstr "Galeria"
+
+#: ../gallery/tg-gallery.php:100
+msgid "Allowed Files"
+msgstr ""
+
+#: ../gallery/tg-gallery.php:123
+msgid "Upload Image"
+msgstr ""
+
+#: ../gallery/tg-gallery.php:124
+#, fuzzy
+msgid "Delete All Images"
+msgstr "Veure tots els resultats"
+
+#: ../gallery/tg-gallery.php:131
+msgid "Remove"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:27
+#, fuzzy
+msgid "Add New Gallery"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:28
+#, fuzzy
+msgid "Edit Gallery"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:29
+#, fuzzy
+msgid "New Gallery"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:30
+#, fuzzy
+msgid "View Gallery"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:31
+#, fuzzy
+msgid "Search Gallery"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:32
+#, fuzzy
+msgid "No Gallery found"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:33
+#, fuzzy
+msgid "No Gallery found in Trash"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:55
+#, fuzzy
+msgid "Search Gallery Categories"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:56
+#, fuzzy
+msgid "All Gallery Categories"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:57
+#, fuzzy
+msgid "Parent Gallery Category"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:58
+#, fuzzy
+msgid "Parent Gallery Category:"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:59
+#, fuzzy
+msgid "Edit Gallery Category"
+msgstr "Galeria"
+
+#: ../grandrestaurant-custom-post.php:60
+#, fuzzy
+msgid "Update Gallery Category"
+msgstr "Actualització"
+
+#: ../grandrestaurant-custom-post.php:61
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:62
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:74
+msgid "Add New Menu"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:75
+msgid "Edit Menu"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:76
+msgid "New Menu"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:77
+#, fuzzy
+msgid "View Menu"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:78
+#, fuzzy
+msgid "Search Menus"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:79
+#, fuzzy
+msgid "No Menu found"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:80
+#, fuzzy
+msgid "No Menu found in Trash"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:102
+#, fuzzy
+msgid "Search Menu Categories"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:103
+#, fuzzy
+msgid "All Menu Categories"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:104
+msgid "Parent Menu Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:105
+msgid "Parent Menu Category:"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:106
+msgid "Edit Menu Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:107
+#, fuzzy
+msgid "Update Menu Category"
+msgstr "Actualització"
+
+#: ../grandrestaurant-custom-post.php:108
+msgid "Add New Menu Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:109
+msgid "New Menu Category Name"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:134
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:135
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:136
+msgid "New Testimonial"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:137
+#, fuzzy
+msgid "View Testimonial"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:138
+#, fuzzy
+msgid "Search Testimonial"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:139
+#, fuzzy
+msgid "No Testimonial found"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:140
+#, fuzzy
+msgid "No Testimonial found in Trash"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:162
+#, fuzzy
+msgid "Search Testimonial Categories"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:163
+#, fuzzy
+msgid "All Testimonial Categories"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:164
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:165
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:166
+msgid "Edit Testimonial Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:167
+#, fuzzy
+msgid "Update Testimonial Category"
+msgstr "Actualització"
+
+#: ../grandrestaurant-custom-post.php:168
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:169
+msgid "New Testimonial Category Name"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:194
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:195
+msgid "Edit Team Member"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:196
+msgid "New Team Member"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:197
+#, fuzzy
+msgid "View Team Member"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:198
+#, fuzzy
+msgid "Search Team Members"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:199
+#, fuzzy
+msgid "No Team Member found"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:200
+msgid "No Team Member found in Trash"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:222
+#, fuzzy
+msgid "Team Service Categories"
+msgstr "Servei"
+
+#: ../grandrestaurant-custom-post.php:223
+#, fuzzy
+msgid "All Team Categories"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:224
+msgid "Parent Team Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:225
+msgid "Parent Team Category:"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:226
+msgid "Edit Team Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:227
+#, fuzzy
+msgid "Update Team Category"
+msgstr "Actualització"
+
+#: ../grandrestaurant-custom-post.php:228
+msgid "Add New Team Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:229
+msgid "New Team Category Name"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:253
+msgid "Add New Pricing"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:254
+msgid "Edit Pricing"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:255
+msgid "New Pricing"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:256
+#, fuzzy
+msgid "View Pricing"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:257
+#, fuzzy
+msgid "Search Pricings"
+msgstr "Buscar..."
+
+#: ../grandrestaurant-custom-post.php:258
+#, fuzzy
+msgid "No Pricing found"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:259
+#, fuzzy
+msgid "No Pricing found in Trash"
+msgstr "No es troba!"
+
+#: ../grandrestaurant-custom-post.php:281
+#, fuzzy
+msgid "Pricing Service Categories"
+msgstr "Servei"
+
+#: ../grandrestaurant-custom-post.php:282
+#, fuzzy
+msgid "All Pricing Categories"
+msgstr "Veure tots els resultats"
+
+#: ../grandrestaurant-custom-post.php:283
+msgid "Parent Pricing Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:284
+msgid "Parent Pricing Category:"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:285
+msgid "Edit Pricing Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:286
+#, fuzzy
+msgid "Update Pricing Category"
+msgstr "Actualització"
+
+#: ../grandrestaurant-custom-post.php:287
+msgid "Add New Pricing Category"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:288
+msgid "New Pricing Category Name"
+msgstr ""
+
+#: ../grandrestaurant-custom-post.php:309
+msgid "Thumbnail"
+msgstr ""
+
+#: ../tg-contentbuilder.php:780
+#, fuzzy
+msgid "person"
+msgstr "persona"
+
+#: ../tg-contentbuilder.php:784 ../tg-contentbuilder.php:788
+#, fuzzy
+msgid "people"
+msgstr "persones"
+
+#: ../tg-contentbuilder.php:796
+#, fuzzy
+msgid "Find a table"
+msgstr "Reserva de Taula"
+
+#: ../tg-contentbuilder.php:981 ../tg-contentbuilder.php:1069
+#: ../tg-contentbuilder.php:1313 ../tg-contentbuilder.php:1520
+#: ../tg-contentbuilder.php:1768 ../tg-contentbuilder.php:1981
+#: ../tg-contentbuilder.php:2149 ../tg-contentbuilder.php:4311
+msgid "Order"
+msgstr ""
+
+#: ../tg-contentbuilder.php:4451 ../tg-contentbuilder.php:4479
+#: ../tg-contentbuilder.php:4506
+msgid "In"
+msgstr ""
+
+#: ../tg-contentbuilder.php:4516
+#, fuzzy
+msgid "Read More"
+msgstr "Llegir més"
+
+#: ../tg-contentbuilder.php:6226 ../tg-contentbuilder.php:6227
+#: ../tg-contentbuilder.php:6482 ../tg-contentbuilder.php:6483
+#: ../tg-contentbuilder.php:6741 ../tg-contentbuilder.php:6742
+#: ../tg-contentbuilder.php:6900 ../tg-contentbuilder.php:6901
+msgid "Name *"
+msgstr "Nom*"
+
+#: ../tg-contentbuilder.php:6234 ../tg-contentbuilder.php:6235
+#: ../tg-contentbuilder.php:6490 ../tg-contentbuilder.php:6491
+#: ../tg-contentbuilder.php:6749 ../tg-contentbuilder.php:6750
+#: ../tg-contentbuilder.php:6908 ../tg-contentbuilder.php:6909
+#, fuzzy
+msgid "Email *"
+msgstr "Email*"
+
+#: ../tg-contentbuilder.php:6242 ../tg-contentbuilder.php:6243
+#: ../tg-contentbuilder.php:6498 ../tg-contentbuilder.php:6499
+#: ../tg-contentbuilder.php:6757 ../tg-contentbuilder.php:6758
+#: ../tg-contentbuilder.php:6916 ../tg-contentbuilder.php:6917
+#, fuzzy
+msgid "Message *"
+msgstr "Missatge"
+
+#: ../tg-contentbuilder.php:6250 ../tg-contentbuilder.php:6251
+#: ../tg-contentbuilder.php:6506 ../tg-contentbuilder.php:6507
+#: ../tg-contentbuilder.php:6765 ../tg-contentbuilder.php:6766
+#: ../tg-contentbuilder.php:6924 ../tg-contentbuilder.php:6925
+msgid "Address"
+msgstr ""
+
+#: ../tg-contentbuilder.php:6258 ../tg-contentbuilder.php:6259
+#: ../tg-contentbuilder.php:6514 ../tg-contentbuilder.php:6515
+#: ../tg-contentbuilder.php:6773 ../tg-contentbuilder.php:6774
+#: ../tg-contentbuilder.php:6932 ../tg-contentbuilder.php:6933
+#, fuzzy
+msgid "Phone"
+msgstr "Teléfono"
+
+#: ../tg-contentbuilder.php:6266 ../tg-contentbuilder.php:6267
+#: ../tg-contentbuilder.php:6522 ../tg-contentbuilder.php:6523
+#: ../tg-contentbuilder.php:6781 ../tg-contentbuilder.php:6782
+#: ../tg-contentbuilder.php:6940 ../tg-contentbuilder.php:6941
+msgid "Mobile"
+msgstr ""
+
+#: ../tg-contentbuilder.php:6274 ../tg-contentbuilder.php:6275
+#: ../tg-contentbuilder.php:6530 ../tg-contentbuilder.php:6531
+#: ../tg-contentbuilder.php:6789 ../tg-contentbuilder.php:6790
+#: ../tg-contentbuilder.php:6948 ../tg-contentbuilder.php:6949
+#, fuzzy
+msgid "Company Name"
+msgstr "Nom*"
+
+#: ../tg-contentbuilder.php:6282 ../tg-contentbuilder.php:6283
+#: ../tg-contentbuilder.php:6538 ../tg-contentbuilder.php:6539
+#: ../tg-contentbuilder.php:6797 ../tg-contentbuilder.php:6798
+#: ../tg-contentbuilder.php:6956 ../tg-contentbuilder.php:6957
+msgid "Country"
+msgstr ""
+
+#: ../tg-contentbuilder.php:6312 ../tg-contentbuilder.php:6568
+#: ../tg-contentbuilder.php:6827 ../tg-contentbuilder.php:6986
+msgid "Send"
+msgstr ""
+
+#: ../tg-shortcode.php:281
+msgid "Share On"
+msgstr ""
+
+#: ../tg-shortcode.php:769 ../tg-shortcode.php:886 ../tg-shortcode.php:2828
+msgid ""
+"Empty gallery item. Please make sure you have upload image to it or check "
+"the short code."
+msgstr ""
+
+#: ../tg-shortcode.php:1263 ../tg-shortcode.php:1540
+msgid ""
+"Empty portfolio item. Please make sure you have created portfolio item or "
+"check the short code."
+msgstr ""
+
+#: ../tg-shortcode.php:1329
+#, fuzzy
+msgid "All"
+msgstr "Veure tots els resultats"
+
+#: ../tg-shortcode.php:2105
+msgid "Go to top"
+msgstr ""
+
+#: ../tg-shortcode.php:2221
+msgid "Follow"
+msgstr ""
+
+#, fuzzy
+msgid "Leave A Reply"
+msgstr "Leave a Reply"
+
+#, fuzzy
+msgid "Cancel"
+msgstr "Leave a Reply"
+
+#, fuzzy
+msgid "Cancel Reply"
+msgstr "Leave a Reply"

@@ -1,0 +1,1291 @@
+0000.002 (0) Opened log file at time: Thu, 23 Jul 2020 05:03:50 +0000 on http://rdcestaging.wpengine.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.4.1 WP: 5.4.2 PHP: 7.4.6 (apache2handler, Linux pod-120354 5.3.0-1018-gcp #19~18.04.1-Ubuntu SMP Tue Apr 14 12:49:45 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 11.3M | 14M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.015 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.018 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.034 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1595384484, seconds_ago=96146)
+0000.041 (0) Semaphore (fd, wp9d750cc7d9_options) was stuck, set lock time to 2020-07-23 05:03:50
+0000.045 (0) Semaphore (fd, wp9d750cc7d9_options) reset to 1
+0000.050 (0) Set semaphore last lock (fd) time to 2020-07-23 05:03:50
+0000.053 (0) Semaphore lock (fd) complete
+0000.061 (0) Backup run: resumption=0, nonce=a816bdaf245d, begun at=1595480630 (0s ago), job type=backup
+0000.066 (0) Scheduling a resumption (1) after 300 seconds (1595480930) in case this run gets aborted
+0000.095 (0) Checking if we have a zip executable available
+0000.102 (0) Creation of backups of directories: beginning
+0000.114 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.352 (0) Total entities for the zip file: 1959 directories, 12534 files (0 skipped as non-modified), 164.9 MB
+0000.365 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.373 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.380 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.389 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.400 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.8 MB, 12534 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.422 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 600 files added (on-disk size: 5732.3 KB)
+0002.430 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 700 files added (on-disk size: 5732.3 KB)
+0002.437 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 800 files added (on-disk size: 5732.3 KB)
+0002.443 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 900 files added (on-disk size: 5732.3 KB)
+0002.451 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1000 files added (on-disk size: 5732.3 KB)
+0002.454 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.1 MB, 12534 files batched, 501 (1002) added so far); re-opening (prior size: 5732.3 KB)
+0003.743 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1100 files added (on-disk size: 7694.1 KB)
+0003.752 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1200 files added (on-disk size: 7694.1 KB)
+0003.759 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1300 files added (on-disk size: 7694.1 KB)
+0003.767 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1400 files added (on-disk size: 7694.1 KB)
+0003.774 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1500 files added (on-disk size: 7694.1 KB)
+0003.778 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 12534 files batched, 501 (1503) added so far); re-opening (prior size: 7694.1 KB)
+0004.322 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1600 files added (on-disk size: 8397.2 KB)
+0004.333 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1700 files added (on-disk size: 8397.2 KB)
+0004.342 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1800 files added (on-disk size: 8397.2 KB)
+0004.349 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 1900 files added (on-disk size: 8397.2 KB)
+0004.357 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2000 files added (on-disk size: 8397.2 KB)
+0004.361 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 MB, 12534 files batched, 501 (2004) added so far); re-opening (prior size: 8397.2 KB)
+0005.222 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2100 files added (on-disk size: 10242.6 KB)
+0005.230 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2200 files added (on-disk size: 10242.6 KB)
+0005.237 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2300 files added (on-disk size: 10242.6 KB)
+0005.244 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2400 files added (on-disk size: 10242.6 KB)
+0005.252 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2500 files added (on-disk size: 10242.6 KB)
+0005.256 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.8 MB, 12534 files batched, 501 (2505) added so far); re-opening (prior size: 10242.6 KB)
+0005.971 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2600 files added (on-disk size: 11855.9 KB)
+0005.978 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2700 files added (on-disk size: 11855.9 KB)
+0005.985 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2800 files added (on-disk size: 11855.9 KB)
+0005.992 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 2900 files added (on-disk size: 11855.9 KB)
+0006.000 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3000 files added (on-disk size: 11855.9 KB)
+0006.003 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 12534 files batched, 501 (3006) added so far); re-opening (prior size: 11855.9 KB)
+0006.558 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3100 files added (on-disk size: 12654.1 KB)
+0006.566 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3200 files added (on-disk size: 12654.1 KB)
+0006.574 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3300 files added (on-disk size: 12654.1 KB)
+0006.581 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3400 files added (on-disk size: 12654.1 KB)
+0006.589 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3500 files added (on-disk size: 12654.1 KB)
+0006.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.2 MB, 12534 files batched, 501 (3507) added so far); re-opening (prior size: 12654.1 KB)
+0008.376 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3600 files added (on-disk size: 16485.5 KB)
+0008.385 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3700 files added (on-disk size: 16485.5 KB)
+0008.393 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3800 files added (on-disk size: 16485.5 KB)
+0008.401 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 3900 files added (on-disk size: 16485.5 KB)
+0008.409 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4000 files added (on-disk size: 16485.5 KB)
+0008.413 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.4 MB, 12534 files batched, 501 (4008) added so far); re-opening (prior size: 16485.5 KB)
+0009.233 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4100 files added (on-disk size: 18336.4 KB)
+0009.241 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4200 files added (on-disk size: 18336.4 KB)
+0009.251 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4300 files added (on-disk size: 18336.4 KB)
+0009.258 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4400 files added (on-disk size: 18336.4 KB)
+0009.267 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4500 files added (on-disk size: 18336.4 KB)
+0009.271 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 12534 files batched, 501 (4509) added so far); re-opening (prior size: 18336.4 KB)
+0011.100 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4600 files added (on-disk size: 21443 KB)
+0011.112 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4700 files added (on-disk size: 21443 KB)
+0011.121 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4800 files added (on-disk size: 21443 KB)
+0011.130 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 4900 files added (on-disk size: 21443 KB)
+0011.141 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip.tmp: 5000 files added (on-disk size: 21443 KB)
+0011.145 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 12534 files batched, 501 (5010) added so far); re-opening (prior size: 21443 KB)
+0012.145 (0) Zip size is at/near split limit (28.7 MB / 25 MB) - bumping index (from: 0)
+0012.492 (0) Created plugins zip (0) - 29410 KB in 12 s (2444.6 KB/s) (checksums: sha1: 1a45284ddb2b7a0ad5bca5e8f8d54f67ce2f1adc, sha256: 86c234dfb2e512dbe20b5a5476638dcab3e2f67878648b4f5332208dfba94af9)
+0012.503 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0012.510 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0012.517 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0012.524 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0012.531 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0012.535 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 12534 files batched, 501 (5511) added so far); re-opening (prior size: 0 KB)
+0013.160 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5600 files added (on-disk size: 1341.1 KB)
+0013.168 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5700 files added (on-disk size: 1341.1 KB)
+0013.175 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5800 files added (on-disk size: 1341.1 KB)
+0013.182 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 5900 files added (on-disk size: 1341.1 KB)
+0013.189 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6000 files added (on-disk size: 1341.1 KB)
+0013.193 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 12534 files batched, 501 (6012) added so far); re-opening (prior size: 1341.1 KB)
+0013.725 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6100 files added (on-disk size: 2544.3 KB)
+0013.732 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6200 files added (on-disk size: 2544.3 KB)
+0013.739 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6300 files added (on-disk size: 2544.3 KB)
+0013.747 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6400 files added (on-disk size: 2544.3 KB)
+0013.753 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6500 files added (on-disk size: 2544.3 KB)
+0013.757 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.4 MB, 12534 files batched, 501 (6513) added so far); re-opening (prior size: 2544.3 KB)
+0015.352 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6600 files added (on-disk size: 6809.1 KB)
+0015.360 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6700 files added (on-disk size: 6809.1 KB)
+0015.367 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6800 files added (on-disk size: 6809.1 KB)
+0015.375 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 6900 files added (on-disk size: 6809.1 KB)
+0015.382 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7000 files added (on-disk size: 6809.1 KB)
+0015.386 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.2 MB, 12534 files batched, 501 (7014) added so far); re-opening (prior size: 6809.1 KB)
+0016.429 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7100 files added (on-disk size: 9352.8 KB)
+0016.437 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7200 files added (on-disk size: 9352.8 KB)
+0016.443 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7300 files added (on-disk size: 9352.8 KB)
+0016.450 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7400 files added (on-disk size: 9352.8 KB)
+0016.457 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7500 files added (on-disk size: 9352.8 KB)
+0016.461 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.6 MB, 12534 files batched, 501 (7515) added so far); re-opening (prior size: 9352.8 KB)
+0017.248 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7600 files added (on-disk size: 12179.3 KB)
+0017.256 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7700 files added (on-disk size: 12179.3 KB)
+0017.263 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7800 files added (on-disk size: 12179.3 KB)
+0017.271 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 7900 files added (on-disk size: 12179.3 KB)
+0017.278 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8000 files added (on-disk size: 12179.3 KB)
+0017.283 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 MB, 12534 files batched, 501 (8016) added so far); re-opening (prior size: 12179.3 KB)
+0017.977 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8100 files added (on-disk size: 13198.3 KB)
+0017.984 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8200 files added (on-disk size: 13198.3 KB)
+0017.991 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8300 files added (on-disk size: 13198.3 KB)
+0017.998 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8400 files added (on-disk size: 13198.3 KB)
+0018.005 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8500 files added (on-disk size: 13198.3 KB)
+0018.009 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 MB, 12534 files batched, 501 (8517) added so far); re-opening (prior size: 13198.3 KB)
+0018.676 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8600 files added (on-disk size: 15927.5 KB)
+0018.684 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8700 files added (on-disk size: 15927.5 KB)
+0018.691 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8800 files added (on-disk size: 15927.5 KB)
+0018.699 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 8900 files added (on-disk size: 15927.5 KB)
+0018.707 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9000 files added (on-disk size: 15927.5 KB)
+0018.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.2 MB, 12534 files batched, 501 (9018) added so far); re-opening (prior size: 15927.5 KB)
+0019.196 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9100 files added (on-disk size: 16633 KB)
+0019.204 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9200 files added (on-disk size: 16633 KB)
+0019.211 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9300 files added (on-disk size: 16633 KB)
+0019.219 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9400 files added (on-disk size: 16633 KB)
+0019.226 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9500 files added (on-disk size: 16633 KB)
+0019.231 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.6 MB, 12534 files batched, 501 (9519) added so far); re-opening (prior size: 16633 KB)
+0020.576 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9600 files added (on-disk size: 18717.9 KB)
+0020.585 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9700 files added (on-disk size: 18717.9 KB)
+0020.593 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9800 files added (on-disk size: 18717.9 KB)
+0020.601 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 9900 files added (on-disk size: 18717.9 KB)
+0020.609 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10000 files added (on-disk size: 18717.9 KB)
+0020.614 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 12534 files batched, 501 (10020) added so far); re-opening (prior size: 18717.9 KB)
+0021.541 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10100 files added (on-disk size: 20878.8 KB)
+0021.549 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10200 files added (on-disk size: 20878.8 KB)
+0021.557 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10300 files added (on-disk size: 20878.8 KB)
+0021.564 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10400 files added (on-disk size: 20878.8 KB)
+0021.572 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10500 files added (on-disk size: 20878.8 KB)
+0021.576 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 12534 files batched, 501 (10521) added so far); re-opening (prior size: 20878.8 KB)
+0022.277 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10600 files added (on-disk size: 24129.8 KB)
+0022.285 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10700 files added (on-disk size: 24129.8 KB)
+0022.292 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10800 files added (on-disk size: 24129.8 KB)
+0022.300 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip.tmp: 10900 files added (on-disk size: 24129.8 KB)
+0022.304 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (1.7 MB, 396 (10917) files added so far); last ratio: 0.7606; re-opening (prior size: 24129.8 KB)
+0022.820 (0) Zip size is at/near split limit (24.8 MB / 25 MB) - bumping index (from: 1)
+0023.136 (0) Created plugins zip (1) - 25413.9 KB in 10.3 s (2460.5 KB/s) (checksums: sha1: e1b3b2beb5bd19e48e7381279e3e705eb877461f, sha256: 92a219d08edc005208b894ca1d74199305b64e5dd81925ef7e8805ea5bfd7c71)
+0023.146 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11000 files added (on-disk size: 0 KB)
+0023.153 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11100 files added (on-disk size: 0 KB)
+0023.160 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11200 files added (on-disk size: 0 KB)
+0023.168 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11300 files added (on-disk size: 0 KB)
+0023.176 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11400 files added (on-disk size: 0 KB)
+0023.180 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.2 MB, 12534 files batched, 501 (11418) added so far); re-opening (prior size: 0 KB)
+0023.808 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11500 files added (on-disk size: 1282.4 KB)
+0023.816 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11600 files added (on-disk size: 1282.4 KB)
+0023.824 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11700 files added (on-disk size: 1282.4 KB)
+0023.832 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11800 files added (on-disk size: 1282.4 KB)
+0023.840 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 11900 files added (on-disk size: 1282.4 KB)
+0023.846 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.7 MB, 12534 files batched, 501 (11919) added so far); re-opening (prior size: 1282.4 KB)
+0024.261 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 12000 files added (on-disk size: 1772.9 KB)
+0024.268 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 12100 files added (on-disk size: 1772.9 KB)
+0024.275 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 12200 files added (on-disk size: 1772.9 KB)
+0024.282 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 12300 files added (on-disk size: 1772.9 KB)
+0024.289 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 12400 files added (on-disk size: 1772.9 KB)
+0024.293 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 12534 files batched, 501 (12420) added so far); re-opening (prior size: 1772.9 KB)
+0025.171 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip.tmp: 12500 files added (on-disk size: 3898.3 KB)
+0025.408 (0) Created plugins zip (2) - 4288.5 KB in 2.3 s (1889.5 KB/s) (sha1: 78fa02ed60461b0705c89c52a2e24d493e348233, sha256: dc00bb45312fabd678010773985744a220ad918eff021146e739a0ea5a1ab5f5)
+0025.417 (0) Beginning creation of dump of themes (split every: 25 MB)
+0025.450 (0) Total entities for the zip file: 199 directories, 1439 files (0 skipped as non-modified), 57.5 MB
+0025.457 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (31.6 MB, 1439 files batched, 48 (48) added so far); re-opening (prior size: 0 KB)
+0025.710 (0) A useful amount of data was added after this amount of zip processing: 0.5 s (normalised: 0.4 s, rate: 58991.9 KB/s)
+0025.714 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.549144029617, normalised_time=0.433957579811, max_time=-1, data points known=0, max_bytes=26214400)
+0025.719 (0) Zip size is at/near split limit (31.4 MB / 25 MB) - bumping index (from: 0)
+0026.072 (0) Created themes zip (0) - 32154.8 KB in 0.3 s (106562.3 KB/s) (checksums: sha1: 382207dedfdb2331ce12b23451035a7886d62dd2, sha256: 048668f5e025541a5c1a9c8f6eeaaabdf394a39501dc1a03fb2a7947b2dce406)
+0026.083 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.090 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.097 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.104 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 400 files added (on-disk size: 0 KB)
+0026.111 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 500 files added (on-disk size: 0 KB)
+0026.117 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.6 MB, 1439 files batched, 501 (549) added so far); re-opening (prior size: 0 KB)
+0027.009 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 600 files added (on-disk size: 10715.6 KB)
+0027.017 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 700 files added (on-disk size: 10715.6 KB)
+0027.024 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 800 files added (on-disk size: 10715.6 KB)
+0027.031 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 900 files added (on-disk size: 10715.6 KB)
+0027.038 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 1000 files added (on-disk size: 10715.6 KB)
+0027.043 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.5 MB, 1439 files batched, 501 (1050) added so far); re-opening (prior size: 10715.6 KB)
+0027.647 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 1100 files added (on-disk size: 15914.1 KB)
+0027.654 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 1200 files added (on-disk size: 15914.1 KB)
+0027.661 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 1300 files added (on-disk size: 15914.1 KB)
+0027.668 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip.tmp: 1400 files added (on-disk size: 15914.1 KB)
+0028.604 (0) Created themes zip (1) - 19474.8 KB in 2.5 s (7705.6 KB/s) (sha1: 064108a9e854d825bf2cbf500f72f3bd8dc23b72, sha256: 61f644fb8ec1fa9f7983f5f3aa7b839cca67e923ad691b129609a5e4a2f3e8a5)
+0028.612 (0) Exclusion option setting (uploads): 
+0028.616 (0) Looking for candidates to back up in: /nas/content/live/rdcestaging/wp-content/uploads
+0028.619 (0) finding files: mc4wp-debug-log.php: adding to list (1)
+0028.622 (0) finding files: wc-customers-report-export-158827593347.csv: adding to list (2)
+0028.625 (0) finding files: wc-customers-report-export-158916706151.csv: adding to list (3)
+0028.627 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (4)
+0028.630 (0) finding files: 2020: adding to list (5)
+0028.633 (0) finding files: .htaccess: adding to list (6)
+0028.634 (0) finding files: woocommerce-placeholder.png: adding to list (7)
+0028.638 (0) finding files: 2018: adding to list (8)
+0028.641 (0) finding files: GeoIPv6.dat: adding to list (9)
+0028.642 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (10)
+0028.645 (0) finding files: 2015: adding to list (11)
+0028.647 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (12)
+0028.650 (0) finding files: .shortpixel-q-1: adding to list (13)
+0028.654 (0) finding files: woocommerce-placeholder-705x705.png: adding to list (14)
+0028.657 (0) finding files: woocommerce-placeholder-960x365.png: adding to list (15)
+0028.659 (0) finding files: woocommerce-placeholder-705x529.png: adding to list (16)
+0028.662 (0) finding files: wpo-plugins-tables-list.json: adding to list (17)
+0028.665 (0) finding files: grand-restaurant: adding to list (18)
+0028.668 (0) finding files: woocommerce-placeholder-400x400.png: adding to list (19)
+0028.670 (0) finding files: woocommerce_uploads: adding to list (20)
+0028.674 (0) finding files: wc-logs: adding to list (21)
+0028.677 (0) finding files: 2014: adding to list (22)
+0028.678 (0) finding files: 2019: adding to list (23)
+0028.681 (0) finding files: woocommerce-placeholder-109x109.png: adding to list (24)
+0028.684 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (25)
+0028.686 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (26)
+0028.690 (0) finding files: revslider: adding to list (27)
+0028.693 (0) finding files: GeoIP.dat: adding to list (28)
+0028.695 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0028.775 (0) Total entities for the zip file: 435 directories, 4388 files (0 skipped as non-modified), 368.4 MB
+0028.783 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.790 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0028.795 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 4388 files batched, 205 (205) added so far); re-opening (prior size: 0 KB)
+0029.343 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21831.1 KB/s)
+0029.346 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.18201398849, normalised_time=1.17263648417, max_time=-1, data points known=0, max_bytes=26214400)
+0029.353 (0) Zip size is at/near split limit (25.3 MB / 25 MB) - bumping index (from: 0)
+0029.644 (0) Created uploads zip (0) - 25901 KB in 0.7 s (39385.9 KB/s) (checksums: sha1: 69a210accbd6849501a65b5953129a9b64514077, sha256: d0e177bc9816266590fae2610fd4a0a7498b8d8404a40d7af7a7fd22614e4594)
+0029.655 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip.tmp: 300 files added (on-disk size: 0 KB)
+0029.661 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip.tmp: 400 files added (on-disk size: 0 KB)
+0029.666 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 222 (427) added so far); re-opening (prior size: 0 KB)
+0030.214 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 24367.5 KB/s)
+0030.217 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.05307793617, normalised_time=1.05057841206, max_time=-1, data points known=0, max_bytes=26214400)
+0030.225 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 1)
+0030.510 (0) Created uploads zip (1) - 25693.9 KB in 0.6 s (44389.7 KB/s) (checksums: sha1: 672b75e5633a531c96a36a3dcf7fd9088e3daf31, sha256: 4cc6b7e6653cd322d9e517854297a5f830e8d814c4a818ded1ab85cc72297e46)
+0030.520 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip.tmp: 500 files added (on-disk size: 0 KB)
+0030.526 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip.tmp: 600 files added (on-disk size: 0 KB)
+0030.530 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 211 (638) added so far); re-opening (prior size: 0 KB)
+0031.047 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.9 s, rate: 29063.7 KB/s)
+0031.050 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.885540962219, normalised_time=0.88082291604, max_time=-1, data points known=0, max_bytes=26214400)
+0031.055 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 2)
+0031.332 (0) Created uploads zip (2) - 25768.3 KB in 0.5 s (47310.2 KB/s) (checksums: sha1: bc3b69abd5653e2240464e42a7b7d38b2a2c8819, sha256: 32e951ff98c13637d9e37d24383466462ccc9ab81e35b908ec6c816b6d166f88)
+0031.341 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip.tmp: 700 files added (on-disk size: 0 KB)
+0031.348 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip.tmp: 800 files added (on-disk size: 0 KB)
+0031.353 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 219 (857) added so far); re-opening (prior size: 0 KB)
+0031.899 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 14799.3 KB/s)
+0031.902 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.73778009415, normalised_time=1.72980604356, max_time=-1, data points known=0, max_bytes=26214400)
+0031.909 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 3)
+0032.198 (0) Created uploads zip (3) - 25704.5 KB in 0.6 s (44663.3 KB/s) (checksums: sha1: ec68599348b768b2c18e40655499fb5bb34ef0ff, sha256: 7cdd1ac827674f68382b0bbb648437d35dc8111a2575bd594600da597e699605)
+0032.207 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip.tmp: 900 files added (on-disk size: 0 KB)
+0032.213 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 4388 files batched, 135 (992) added so far); re-opening (prior size: 0 KB)
+0032.818 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.6 s, rate: 15571.6 KB/s)
+0032.822 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.65717196465, normalised_time=1.64401409473, max_time=-1, data points known=0, max_bytes=26214400)
+0032.827 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 4)
+0033.123 (0) Created uploads zip (4) - 25735.3 KB in 0.6 s (40914.3 KB/s) (checksums: sha1: 36223bae03569f9e644afb0abe59b05633bdc158, sha256: ca0cb11b0bd3888ed2906db032d2363ad706cb856ec0cb0f89d354f73e897360)
+0033.131 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0033.138 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0033.143 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4388 files batched, 135 (1127) added so far); re-opening (prior size: 0 KB)
+0033.604 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 17745 KB/s)
+0033.607 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.44297504425, normalised_time=1.44265651337, max_time=-1, data points known=0, max_bytes=26214400)
+0033.615 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (0.1 MB, 1 (1128) files added so far); last ratio: 0.9981; re-opening (prior size: 25556.1 KB)
+0033.709 (0) Zip size is at/near split limit (25 MB / 25 MB) - bumping index (from: 5)
+0033.984 (0) Created uploads zip (5) - 25608.6 KB in 0.6 s (43740.6 KB/s) (checksums: sha1: a21e9d9354729ea0ae0870fd1e9767506946d97b, sha256: 40d359925cdfa7927cdf22fef54b0a0d10ace7a1c7a02ebb50c372ebc433e5b6)
+0033.994 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0034.000 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0034.007 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0034.013 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0034.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 395 (1523) added so far); re-opening (prior size: 0 KB)
+0034.725 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.6 s, rate: 16420.6 KB/s)
+0034.728 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.56373405457, normalised_time=1.55901592372, max_time=-1, data points known=0, max_bytes=26214400)
+0034.735 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 6)
+0035.028 (0) Created uploads zip (6) - 25756.2 KB in 0.8 s (34299.7 KB/s) (checksums: sha1: 461f203cafc1cd9b1ed117094eeb995bd430332f, sha256: 73d4cab7b87664c406adfc26306f00c8cdc6d31d754416b86030b0f3b8c55d75)
+0035.037 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0035.044 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0035.050 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0035.056 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0035.063 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0035.067 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 490 (2013) added so far); re-opening (prior size: 0 KB)
+0035.930 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.8 s, rate: 14549.1 KB/s)
+0035.933 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.7685918808, normalised_time=1.75956349916, max_time=-1, data points known=0, max_bytes=26214400)
+0035.938 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 7)
+0036.233 (0) Created uploads zip (7) - 25798.9 KB in 0.9 s (28376.6 KB/s) (checksums: sha1: 96eeaa21a46524ba79f9f43d9217f87509ff5c78, sha256: 49f8de16d00e0b7258acdf798632d2d076cfe095ad95b87b0b53b60431bcb949)
+0036.242 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0036.249 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0036.255 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0036.259 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4388 files batched, 289 (2302) added so far); re-opening (prior size: 0 KB)
+0036.927 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.8 s, rate: 14510.2 KB/s)
+0036.931 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.76638507843, normalised_time=1.76427207618, max_time=-1, data points known=0, max_bytes=26214400)
+0036.940 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (1.1 MB, 11 (2313) files added so far); last ratio: 0.9546; re-opening (prior size: 24468.1 KB)
+0037.062 (0) Zip size is at/near split limit (25 MB / 25 MB) - bumping index (from: 8)
+0037.339 (0) Created uploads zip (8) - 25621.4 KB in 0.8 s (30904.8 KB/s) (checksums: sha1: 3b155724667afa715186416f9244d35b86ed6ae0, sha256: 1d0b080af4cfe37b2a958734a438c935353927e0f0850094fb852094bcd49c84)
+0037.351 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0037.358 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0037.364 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0037.369 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4388 files batched, 313 (2626) added so far); re-opening (prior size: 0 KB)
+0039.357 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 8017.4 KB/s)
+0039.360 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.19596195221, normalised_time=3.19307027861, max_time=-1, data points known=0, max_bytes=26214400)
+0039.371 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (2.1 MB, 7 (2633) files added so far); last ratio: 0.9589; re-opening (prior size: 24569.9 KB)
+0039.509 (0) Zip size is at/near split limit (26.1 MB / 25 MB) - bumping index (from: 9)
+0039.814 (0) Created uploads zip (9) - 26684.9 KB in 2.2 s (12290.9 KB/s) (checksums: sha1: 72c720a2d448c37815ab4a85e8540b38cbf88043, sha256: 925fedc6d7ce0332157a40f71dac6f20293931da2607fe93554ca401d390dd5d)
+0039.825 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0039.832 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0039.839 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4388 files batched, 210 (2843) added so far); re-opening (prior size: 0 KB)
+0040.327 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21954.5 KB/s)
+0040.331 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.16609311104, normalised_time=1.16604938597, max_time=-1, data points known=0, max_bytes=26214400)
+0040.337 (0) Zip size is at/near split limit (25 MB / 25 MB) - bumping index (from: 10)
+0040.622 (0) Created uploads zip (10) - 25637.5 KB in 0.5 s (49240.2 KB/s) (checksums: sha1: 0f929224a5063f7b86795a83f2447ff5e3951d27, sha256: 217c12822c95520bf8af5d580a82902cdf4c944dc500c1762f3eb915e4c1f40e)
+0040.633 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0040.639 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0040.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 255 (3098) added so far); re-opening (prior size: 0 KB)
+0041.200 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 1 s, rate: 24747.7 KB/s)
+0041.204 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.03926301003, normalised_time=1.03444125513, max_time=-1, data points known=0, max_bytes=26214400)
+0041.210 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 11)
+0041.512 (0) Created uploads zip (11) - 25763.6 KB in 0.6 s (43784 KB/s) (checksums: sha1: 972442a3e37a6ffb3eb60f3187aa631d586b4fe5, sha256: ac60da241a57e1937fda22c62ac2e11c4913aeab9dbc2d9ac0c1d8e1a852bccc)
+0041.520 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0041.526 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0041.533 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0041.537 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 4388 files batched, 205 (3303) added so far); re-opening (prior size: 0 KB)
+0042.216 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 24352.3 KB/s)
+0042.219 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.05481290817, normalised_time=1.05123393911, max_time=-1, data points known=0, max_bytes=26214400)
+0042.228 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (3.8 MB, 2 (3305) files added so far); last ratio: 0.9709; re-opening (prior size: 24940.7 KB)
+0045.087 (0) Zip size is at/near split limit (26.3 MB / 25 MB) - bumping index (from: 12)
+0045.410 (0) Created uploads zip (12) - 26929.9 KB in 3.6 s (7533 KB/s) (checksums: sha1: 59917222003fd465f1eba4defe5c3b496abd2392, sha256: e3796f1bae4c6403750d52a941a3ea31e5fcd1054b71c318ff0c805136d07da4)
+0045.422 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0045.429 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0045.436 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 4388 files batched, 281 (3586) added so far); re-opening (prior size: 0 KB)
+0046.138 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 13091 KB/s)
+0046.142 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.97673511505, normalised_time=1.95554529164, max_time=-1, data points known=0, max_bytes=26214400)
+0046.150 (0) Zip size is at/near split limit (25.3 MB / 25 MB) - bumping index (from: 13)
+0046.538 (0) Created uploads zip (13) - 25930.7 KB in 0.7 s (35017.4 KB/s) (checksums: sha1: d64006bcde0eba21c1b987ff79a544b9f18ae867, sha256: e43e0851ec2457e39f4b7596881d8ea5c81ee436df401913043b86c7c9b01cba)
+0046.547 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0046.556 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0046.565 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0046.575 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0046.584 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0046.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.9 MB, 4388 files batched, 501 (4087) added so far); re-opening (prior size: 0 KB)
+0047.118 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 4100 files added (on-disk size: 6110.4 KB)
+0047.126 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 4200 files added (on-disk size: 6110.4 KB)
+0047.134 (0) Zip: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip.tmp: 4300 files added (on-disk size: 6110.4 KB)
+0047.912 (0) Created uploads zip (14) - 9746.3 KB in 1.4 s (7112.6 KB/s) (sha1: 920b8bfca6e52bcdf1df65ac112de851a3c84592, sha256: 6b9f8c11bc00095ff16688f42062e97a483c7ab9c60bdcd59d017be0bc35ec47)
+0047.920 (0) Beginning backup of other directories found in the content directory (index: 0)
+0047.923 (0) Exclusion option setting (others): 
+0047.926 (0) Looking for candidates to back up in: /nas/content/live/rdcestaging/wp-content
+0047.929 (0) finding files: ewww: adding to list (1)
+0047.931 (0) finding files: .htaccess: adding to list (2)
+0047.934 (0) finding files: updraft: skipping: this is the updraft directory
+0047.936 (0) finding files: mysql.sql: adding to list (3)
+0047.938 (0) finding files: uploads: skipping: this is the uploads directory
+0047.940 (0) finding files: plugins: skipping: this is the plugins directory
+0047.942 (0) finding files: mu-plugins: adding to list (4)
+0047.945 (0) finding files: index.php: adding to list (5)
+0047.947 (0) finding files: themes: skipping: this is the themes directory
+0047.949 (0) finding files: advanced-cache.php: adding to list (6)
+0047.960 (0) Total entities for the zip file: 13 directories, 87 files (0 skipped as non-modified), 12.8 MB
+0048.529 (0) PHP event: code E_WARNING: ZipArchive::close(): Can't open file: Permission denied (line 3325, wp-content/plugins/updraftplus/backup.php)
+0048.534 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0048.538 (0) File: ewww/jpegtran (exists: 1, is_readable: 1 size: 739239)
+0048.538 (0) File: ewww/gifsicle (exists: 1, is_readable: 1 size: 954205)
+0048.538 (0) File: ewww/optipng (exists: 1, is_readable: 1 size: 835099)
+0048.538 (0) File: .htaccess (exists: 1, is_readable: 1 size: 3798)
+0048.538 (0) File: mysql.sql (exists: 1, is_readable: 1 size: 10027276)
+0048.538 (0) File: mu-plugins/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 481)
+0048.538 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/user-nonce-helper.php (exists: 1, is_readable: 1 size: 4474)
+0048.538 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/logger.php (exists: 1, is_readable: 1 size: 1738)
+0048.538 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/custom-exceptions.php (exists: 1, is_readable: 1 size: 523)
+0048.538 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/sign-on-user-provider.php (exists: 1, is_readable: 1 size: 4068)
+0048.538 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/user-request-id-helper.php (exists: 1, is_readable: 1 size: 2234)
+0048.538 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/security-checks.php (exists: 1, is_readable: 1 size: 191)
+0048.538 (0) File: mu-plugins/force-strong-passwords/readme.md (exists: 1, is_readable: 1 size: 5417)
+0048.538 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.js (exists: 1, is_readable: 1 size: 459)
+0048.538 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.min.js (exists: 1, is_readable: 1 size: 227)
+0048.538 (0) File: mu-plugins/force-strong-passwords/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 7511)
+0048.538 (0) File: mu-plugins/force-strong-passwords/js-admin.js (exists: 1, is_readable: 1 size: 559)
+0048.538 (0) File: mu-plugins/force-strong-passwords/js-admin.min.js (exists: 1, is_readable: 1 size: 432)
+0048.538 (0) File: mu-plugins/force-strong-passwords/readme.txt (exists: 1, is_readable: 1 size: 5569)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.mo (exists: 1, is_readable: 1 size: 995)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.po (exists: 1, is_readable: 1 size: 1130)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.po (exists: 1, is_readable: 1 size: 1155)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-en_US.po (exists: 1, is_readable: 1 size: 1070)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.mo (exists: 1, is_readable: 1 size: 967)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.po (exists: 1, is_readable: 1 size: 1282)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-pt_BR.mo (exists: 1, is_readable: 1 size: 1036)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-fr_FR.mo (exists: 1, is_readable: 1 size: 895)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-de_DE.mo (exists: 1, is_readable: 1 size: 1076)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-fr_FR.po (exists: 1, is_readable: 1 size: 1146)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.mo (exists: 1, is_readable: 1 size: 577)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-pt_BR.po (exists: 1, is_readable: 1 size: 1036)
+0048.538 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-de_DE.po (exists: 1, is_readable: 1 size: 1233)
+0048.538 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings.png (exists: 1, is_readable: 1 size: 12799)
+0048.538 (0) File: mu-plugins/wpengine-common/css/bootstrap.css (exists: 1, is_readable: 1 size: 38905)
+0048.538 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings-white.png (exists: 1, is_readable: 1 size: 8777)
+0048.538 (0) File: mu-plugins/wpengine-common/css/glyphicons.png (exists: 1, is_readable: 1 size: 173275)
+0048.538 (0) File: mu-plugins/wpengine-common/css/wpe-common.css (exists: 1, is_readable: 1 size: 6346)
+0048.538 (0) File: mu-plugins/wpengine-common/css/glyphicons-white.png (exists: 1, is_readable: 1 size: 147941)
+0048.538 (0) File: mu-plugins/wpengine-common/class.notices.php (exists: 1, is_readable: 1 size: 4814)
+0048.538 (0) File: mu-plugins/wpengine-common/class-cookies.php (exists: 1, is_readable: 1 size: 1353)
+0048.539 (0) File: mu-plugins/wpengine-common/admin-ui.php (exists: 1, is_readable: 1 size: 29980)
+0048.539 (0) File: mu-plugins/wpengine-common/wpe_wpdb.php (exists: 1, is_readable: 1 size: 1179)
+0048.539 (0) File: mu-plugins/wpengine-common/patterns.php (exists: 1, is_readable: 1 size: 10621)
+0048.539 (0) File: mu-plugins/wpengine-common/changelog.txt (exists: 1, is_readable: 1 size: 11354)
+0048.539 (0) File: mu-plugins/wpengine-common/dify-partial.php (exists: 1, is_readable: 1 size: 1003)
+0048.539 (0) File: mu-plugins/wpengine-common/monitor-admin-ajax.php (exists: 1, is_readable: 1 size: 683)
+0048.539 (0) File: mu-plugins/wpengine-common/class-wpedeployment.php (exists: 1, is_readable: 1 size: 2811)
+0048.539 (0) File: mu-plugins/wpengine-common/ajax.php (exists: 1, is_readable: 1 size: 2376)
+0048.539 (0) File: mu-plugins/wpengine-common/class-wpeapi.php (exists: 1, is_readable: 1 size: 4691)
+0048.539 (0) File: mu-plugins/wpengine-common/dify-widget.php (exists: 1, is_readable: 1 size: 1523)
+0048.539 (0) File: mu-plugins/wpengine-common/class.site-preview.php (exists: 1, is_readable: 1 size: 2324)
+0048.539 (0) File: mu-plugins/wpengine-common/plugin.php (exists: 1, is_readable: 1 size: 90236)
+0048.539 (0) File: mu-plugins/wpengine-common/class-wpe-heartbeat-throttle.php (exists: 1, is_readable: 1 size: 1113)
+0048.539 (0) File: mu-plugins/wpengine-common/network.php (exists: 1, is_readable: 1 size: 2295)
+0048.539 (0) File: mu-plugins/wpengine-common/class-filterplugin.php (exists: 1, is_readable: 1 size: 1755)
+0048.539 (0) File: mu-plugins/wpengine-common/images/wpe-16x16.jpg (exists: 1, is_readable: 1 size: 477)
+0048.539 (0) File: mu-plugins/wpengine-common/images/wpe-identity-square-dark-16.png (exists: 1, is_readable: 1 size: 697)
+0048.539 (0) File: mu-plugins/wpengine-common/images/favicon.ico (exists: 1, is_readable: 1 size: 1150)
+0048.539 (0) File: mu-plugins/wpengine-common/images/wpengine_small_light.png (exists: 1, is_readable: 1 size: 30600)
+0048.539 (0) File: mu-plugins/wpengine-common/images/wpe-curated.png (exists: 1, is_readable: 1 size: 1156)
+0048.539 (0) File: mu-plugins/wpengine-common/images/window-close.png (exists: 1, is_readable: 1 size: 218)
+0048.539 (0) File: mu-plugins/wpengine-common/images/ajax-loader-transparent.gif (exists: 1, is_readable: 1 size: 673)
+0048.539 (0) File: mu-plugins/wpengine-common/images/wpengine_small_dark.png (exists: 1, is_readable: 1 size: 30600)
+0048.539 (0) File: mu-plugins/wpengine-common/images/ajax-loader.gif (exists: 1, is_readable: 1 size: 9427)
+0048.539 (0) File: mu-plugins/wpengine-common/views/wpe-migration-preview-template.php (exists: 1, is_readable: 1 size: 2181)
+0048.539 (0) File: mu-plugins/wpengine-common/views/admin/notice-sticky.php (exists: 1, is_readable: 1 size: 446)
+0048.539 (0) File: mu-plugins/wpengine-common/views/admin/notice.php (exists: 1, is_readable: 1 size: 596)
+0048.539 (0) File: mu-plugins/wpengine-common/views/general/powered-by.php (exists: 1, is_readable: 1 size: 337)
+0048.539 (0) File: mu-plugins/wpengine-common/views/modal.php (exists: 1, is_readable: 1 size: 646)
+0048.539 (0) File: mu-plugins/wpengine-common/views/staging-modal.php (exists: 1, is_readable: 1 size: 982)
+0048.539 (0) File: mu-plugins/wpengine-common/views/admin-footer.php (exists: 1, is_readable: 1 size: 693)
+0048.539 (0) File: mu-plugins/wpengine-common/class.sessionsanity.php (exists: 1, is_readable: 1 size: 1204)
+0048.539 (0) File: mu-plugins/wpengine-common/js/wpe-common.js (exists: 1, is_readable: 1 size: 13937)
+0048.539 (0) File: mu-plugins/wpengine-common/js/bootstrap.js (exists: 1, is_readable: 1 size: 61416)
+0048.539 (0) File: mu-plugins/wpengine-common/js/dify-blog.js (exists: 1, is_readable: 1 size: 3268)
+0048.539 (0) File: mu-plugins/wpengine-common/js/bootstrap-modal.js (exists: 1, is_readable: 1 size: 6638)
+0048.539 (0) File: mu-plugins/wpengine-common/js/wpe-rewrite.js (exists: 1, is_readable: 1 size: 756)
+0048.539 (0) File: mu-plugins/wpengine-common/js/bootstrap-transition.js (exists: 1, is_readable: 1 size: 1757)
+0048.539 (0) File: mu-plugins/wpengine-common/common-common.php (exists: 1, is_readable: 1 size: 8398)
+0048.539 (0) File: mu-plugins/wpengine-common/class.powered-by-widget.php (exists: 1, is_readable: 1 size: 3782)
+0048.539 (0) File: mu-plugins/wpengine-common/class-monitor_admin_ajax.php (exists: 1, is_readable: 1 size: 1772)
+0048.539 (0) File: mu-plugins/wpengine-common/wpe-sec.php (exists: 1, is_readable: 1 size: 2169)
+0048.539 (0) File: mu-plugins/wpe-wp-sign-on-plugin.php (exists: 1, is_readable: 1 size: 16049)
+0048.539 (0) File: mu-plugins/wpengine-security-auditor.php (exists: 1, is_readable: 1 size: 14309)
+0048.539 (0) File: mu-plugins/mu-plugin.php (exists: 1, is_readable: 1 size: 7125)
+0048.539 (0) File: index.php (exists: 1, is_readable: 1 size: 28)
+0048.539 (0) File: advanced-cache.php (exists: 1, is_readable: 1 size: 0)
+0048.539 (0) Error: makezip_addfiles returned false
+0048.543 (0) makezip_addfiles(UpdraftPlus_ZipArchive) apparently failed (file=backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip.tmp, type=others, size=0) - retrying with PclZip
+0048.546 (0) Zip file already exists, but is not readable or was zero-sized; will remove: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip.tmp
+0048.556 (0) Total entities for the zip file: 13 directories, 87 files (0 skipped as non-modified), 12.8 MB
+0048.560 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 13074.9 KB, split: 25600 KB)
+0048.815 (0) [Warning] A zip error occurred - check your log for more details.
+0048.820 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_READ_OPEN_FAIL (-2) : Unable to open file '/nas/content/live/rdcestaging/wp-content/mysql.sql' in binary read mode). List of files we were trying to add follows (check their permissions).
+0048.824 (0) File: ewww/jpegtran (exists: 1, is_readable: 1 size: 739239)
+0048.824 (0) File: ewww/gifsicle (exists: 1, is_readable: 1 size: 954205)
+0048.824 (0) File: ewww/optipng (exists: 1, is_readable: 1 size: 835099)
+0048.824 (0) File: .htaccess (exists: 1, is_readable: 1 size: 3798)
+0048.824 (0) File: mysql.sql (exists: 1, is_readable: 1 size: 10027276)
+0048.824 (0) File: mu-plugins/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 481)
+0048.824 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/user-nonce-helper.php (exists: 1, is_readable: 1 size: 4474)
+0048.824 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/logger.php (exists: 1, is_readable: 1 size: 1738)
+0048.824 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/custom-exceptions.php (exists: 1, is_readable: 1 size: 523)
+0048.824 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/sign-on-user-provider.php (exists: 1, is_readable: 1 size: 4068)
+0048.824 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/user-request-id-helper.php (exists: 1, is_readable: 1 size: 2234)
+0048.824 (0) File: mu-plugins/wpe-wp-sign-on-plugin/inc/security-checks.php (exists: 1, is_readable: 1 size: 191)
+0048.824 (0) File: mu-plugins/force-strong-passwords/readme.md (exists: 1, is_readable: 1 size: 5417)
+0048.824 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.js (exists: 1, is_readable: 1 size: 459)
+0048.824 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.min.js (exists: 1, is_readable: 1 size: 227)
+0048.824 (0) File: mu-plugins/force-strong-passwords/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 7511)
+0048.824 (0) File: mu-plugins/force-strong-passwords/js-admin.js (exists: 1, is_readable: 1 size: 559)
+0048.824 (0) File: mu-plugins/force-strong-passwords/js-admin.min.js (exists: 1, is_readable: 1 size: 432)
+0048.824 (0) File: mu-plugins/force-strong-passwords/readme.txt (exists: 1, is_readable: 1 size: 5569)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.mo (exists: 1, is_readable: 1 size: 995)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.po (exists: 1, is_readable: 1 size: 1130)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.po (exists: 1, is_readable: 1 size: 1155)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-en_US.po (exists: 1, is_readable: 1 size: 1070)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.mo (exists: 1, is_readable: 1 size: 967)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.po (exists: 1, is_readable: 1 size: 1282)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-pt_BR.mo (exists: 1, is_readable: 1 size: 1036)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-fr_FR.mo (exists: 1, is_readable: 1 size: 895)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-de_DE.mo (exists: 1, is_readable: 1 size: 1076)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-fr_FR.po (exists: 1, is_readable: 1 size: 1146)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.mo (exists: 1, is_readable: 1 size: 577)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-pt_BR.po (exists: 1, is_readable: 1 size: 1036)
+0048.824 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-de_DE.po (exists: 1, is_readable: 1 size: 1233)
+0048.824 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings.png (exists: 1, is_readable: 1 size: 12799)
+0048.824 (0) File: mu-plugins/wpengine-common/css/bootstrap.css (exists: 1, is_readable: 1 size: 38905)
+0048.824 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings-white.png (exists: 1, is_readable: 1 size: 8777)
+0048.824 (0) File: mu-plugins/wpengine-common/css/glyphicons.png (exists: 1, is_readable: 1 size: 173275)
+0048.824 (0) File: mu-plugins/wpengine-common/css/wpe-common.css (exists: 1, is_readable: 1 size: 6346)
+0048.824 (0) File: mu-plugins/wpengine-common/css/glyphicons-white.png (exists: 1, is_readable: 1 size: 147941)
+0048.824 (0) File: mu-plugins/wpengine-common/class.notices.php (exists: 1, is_readable: 1 size: 4814)
+0048.824 (0) File: mu-plugins/wpengine-common/class-cookies.php (exists: 1, is_readable: 1 size: 1353)
+0048.824 (0) File: mu-plugins/wpengine-common/admin-ui.php (exists: 1, is_readable: 1 size: 29980)
+0048.824 (0) File: mu-plugins/wpengine-common/wpe_wpdb.php (exists: 1, is_readable: 1 size: 1179)
+0048.825 (0) File: mu-plugins/wpengine-common/patterns.php (exists: 1, is_readable: 1 size: 10621)
+0048.825 (0) File: mu-plugins/wpengine-common/changelog.txt (exists: 1, is_readable: 1 size: 11354)
+0048.825 (0) File: mu-plugins/wpengine-common/dify-partial.php (exists: 1, is_readable: 1 size: 1003)
+0048.825 (0) File: mu-plugins/wpengine-common/monitor-admin-ajax.php (exists: 1, is_readable: 1 size: 683)
+0048.825 (0) File: mu-plugins/wpengine-common/class-wpedeployment.php (exists: 1, is_readable: 1 size: 2811)
+0048.825 (0) File: mu-plugins/wpengine-common/ajax.php (exists: 1, is_readable: 1 size: 2376)
+0048.825 (0) File: mu-plugins/wpengine-common/class-wpeapi.php (exists: 1, is_readable: 1 size: 4691)
+0048.825 (0) File: mu-plugins/wpengine-common/dify-widget.php (exists: 1, is_readable: 1 size: 1523)
+0048.825 (0) File: mu-plugins/wpengine-common/class.site-preview.php (exists: 1, is_readable: 1 size: 2324)
+0048.825 (0) File: mu-plugins/wpengine-common/plugin.php (exists: 1, is_readable: 1 size: 90236)
+0048.825 (0) File: mu-plugins/wpengine-common/class-wpe-heartbeat-throttle.php (exists: 1, is_readable: 1 size: 1113)
+0048.825 (0) File: mu-plugins/wpengine-common/network.php (exists: 1, is_readable: 1 size: 2295)
+0048.825 (0) File: mu-plugins/wpengine-common/class-filterplugin.php (exists: 1, is_readable: 1 size: 1755)
+0048.825 (0) File: mu-plugins/wpengine-common/images/wpe-16x16.jpg (exists: 1, is_readable: 1 size: 477)
+0048.825 (0) File: mu-plugins/wpengine-common/images/wpe-identity-square-dark-16.png (exists: 1, is_readable: 1 size: 697)
+0048.825 (0) File: mu-plugins/wpengine-common/images/favicon.ico (exists: 1, is_readable: 1 size: 1150)
+0048.825 (0) File: mu-plugins/wpengine-common/images/wpengine_small_light.png (exists: 1, is_readable: 1 size: 30600)
+0048.825 (0) File: mu-plugins/wpengine-common/images/wpe-curated.png (exists: 1, is_readable: 1 size: 1156)
+0048.825 (0) File: mu-plugins/wpengine-common/images/window-close.png (exists: 1, is_readable: 1 size: 218)
+0048.825 (0) File: mu-plugins/wpengine-common/images/ajax-loader-transparent.gif (exists: 1, is_readable: 1 size: 673)
+0048.825 (0) File: mu-plugins/wpengine-common/images/wpengine_small_dark.png (exists: 1, is_readable: 1 size: 30600)
+0048.825 (0) File: mu-plugins/wpengine-common/images/ajax-loader.gif (exists: 1, is_readable: 1 size: 9427)
+0048.825 (0) File: mu-plugins/wpengine-common/views/wpe-migration-preview-template.php (exists: 1, is_readable: 1 size: 2181)
+0048.825 (0) File: mu-plugins/wpengine-common/views/admin/notice-sticky.php (exists: 1, is_readable: 1 size: 446)
+0048.825 (0) File: mu-plugins/wpengine-common/views/admin/notice.php (exists: 1, is_readable: 1 size: 596)
+0048.825 (0) File: mu-plugins/wpengine-common/views/general/powered-by.php (exists: 1, is_readable: 1 size: 337)
+0048.825 (0) File: mu-plugins/wpengine-common/views/modal.php (exists: 1, is_readable: 1 size: 646)
+0048.825 (0) File: mu-plugins/wpengine-common/views/staging-modal.php (exists: 1, is_readable: 1 size: 982)
+0048.825 (0) File: mu-plugins/wpengine-common/views/admin-footer.php (exists: 1, is_readable: 1 size: 693)
+0048.825 (0) File: mu-plugins/wpengine-common/class.sessionsanity.php (exists: 1, is_readable: 1 size: 1204)
+0048.825 (0) File: mu-plugins/wpengine-common/js/wpe-common.js (exists: 1, is_readable: 1 size: 13937)
+0048.825 (0) File: mu-plugins/wpengine-common/js/bootstrap.js (exists: 1, is_readable: 1 size: 61416)
+0048.825 (0) File: mu-plugins/wpengine-common/js/dify-blog.js (exists: 1, is_readable: 1 size: 3268)
+0048.825 (0) File: mu-plugins/wpengine-common/js/bootstrap-modal.js (exists: 1, is_readable: 1 size: 6638)
+0048.825 (0) File: mu-plugins/wpengine-common/js/wpe-rewrite.js (exists: 1, is_readable: 1 size: 756)
+0048.825 (0) File: mu-plugins/wpengine-common/js/bootstrap-transition.js (exists: 1, is_readable: 1 size: 1757)
+0048.825 (0) File: mu-plugins/wpengine-common/common-common.php (exists: 1, is_readable: 1 size: 8398)
+0048.825 (0) File: mu-plugins/wpengine-common/class.powered-by-widget.php (exists: 1, is_readable: 1 size: 3782)
+0048.825 (0) File: mu-plugins/wpengine-common/class-monitor_admin_ajax.php (exists: 1, is_readable: 1 size: 1772)
+0048.825 (0) File: mu-plugins/wpengine-common/wpe-sec.php (exists: 1, is_readable: 1 size: 2169)
+0048.825 (0) File: mu-plugins/wpe-wp-sign-on-plugin.php (exists: 1, is_readable: 1 size: 16049)
+0048.825 (0) File: mu-plugins/wpengine-security-auditor.php (exists: 1, is_readable: 1 size: 14309)
+0048.825 (0) File: mu-plugins/mu-plugin.php (exists: 1, is_readable: 1 size: 7125)
+0048.825 (0) File: index.php (exists: 1, is_readable: 1 size: 28)
+0048.825 (0) File: advanced-cache.php (exists: 1, is_readable: 1 size: 0)
+0048.829 (0) Error: makezip_addfiles returned false
+0048.854 (0) Created others zip (0) - 1180.3 KB in 0.9 s (1312.8 KB/s) (sha1: 40a02783c4bb6fe6e6bea32957b3ea0f45d5ae64, sha256: ca65f8192628fca9393281c3e35de512589b89c51bc277269230849f5b82e6bf)
+0048.874 (0) Saving backup status to database (elements: 25)
+0048.887 (0) Beginning creation of database dump (WordPress DB)
+0048.973 (0) Table wp9d750cc7d9_options: Total expected rows (approximate): 989
+0049.029 (0) Table wp9d750cc7d9_options: Total rows added: 990 in 0.05 seconds
+0049.034 (0) Table wp9d750cc7d9_options: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_options.table.gz - 149.7 KB)
+0049.047 (0) Table wp9d750cc7d9_users: Total expected rows (approximate): 66
+0049.053 (0) Table wp9d750cc7d9_users: Total rows added: 66 in 0.00 seconds
+0049.057 (0) Table wp9d750cc7d9_users: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_users.table.gz - 4.9 KB)
+0049.068 (0) Table wp9d750cc7d9_usermeta: Total expected rows (approximate): 2596
+0049.097 (0) Table wp9d750cc7d9_usermeta: Total rows added: 2596 in 0.03 seconds
+0049.102 (0) Table wp9d750cc7d9_usermeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_usermeta.table.gz - 33.8 KB)
+0049.117 (0) Table wp9d750cc7d9_actionscheduler_actions: Total expected rows (approximate): 728
+0049.137 (0) Table wp9d750cc7d9_actionscheduler_actions: Total rows added: 695 in 0.02 seconds
+0049.141 (0) Table wp9d750cc7d9_actionscheduler_actions: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_actions.table.gz - 18.2 KB)
+0049.154 (0) Table wp9d750cc7d9_actionscheduler_claims: Total expected rows (approximate): 0
+0049.159 (0) Table wp9d750cc7d9_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0049.163 (0) Table wp9d750cc7d9_actionscheduler_claims: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_claims.table.gz - 0.4 KB)
+0049.177 (0) Table wp9d750cc7d9_actionscheduler_groups: Total expected rows (approximate): 5
+0049.183 (0) Table wp9d750cc7d9_actionscheduler_groups: Total rows added: 5 in 0.00 seconds
+0049.187 (0) Table wp9d750cc7d9_actionscheduler_groups: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_groups.table.gz - 0.5 KB)
+0049.204 (0) Table wp9d750cc7d9_actionscheduler_logs: Total expected rows (approximate): 2184
+0049.231 (0) Table wp9d750cc7d9_actionscheduler_logs: Total rows added: 2085 in 0.02 seconds
+0049.236 (0) Table wp9d750cc7d9_actionscheduler_logs: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_logs.table.gz - 19.4 KB)
+0049.249 (0) Table wp9d750cc7d9_commentmeta: Total expected rows (approximate): 3
+0049.253 (0) Table wp9d750cc7d9_commentmeta: Total rows added: 3 in 0.00 seconds
+0049.259 (0) Table wp9d750cc7d9_commentmeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_commentmeta.table.gz - 0.4 KB)
+0049.275 (0) Table wp9d750cc7d9_comments: Total expected rows (approximate): 675
+0049.293 (0) Table wp9d750cc7d9_comments: Total rows added: 675 in 0.01 seconds
+0049.299 (0) Table wp9d750cc7d9_comments: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_comments.table.gz - 11.6 KB)
+0049.313 (0) Table wp9d750cc7d9_links: Total expected rows (approximate): 7
+0049.320 (0) Table wp9d750cc7d9_links: Total rows added: 7 in 0.00 seconds
+0049.323 (0) Table wp9d750cc7d9_links: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_links.table.gz - 0.6 KB)
+0049.337 (0) Table wp9d750cc7d9_postmeta: Total expected rows (approximate): 13081
+0049.621 (0) Table wp9d750cc7d9_postmeta: Total rows added: 13792 in 0.28 seconds
+0049.627 (0) Table wp9d750cc7d9_postmeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_postmeta.table.gz - 205.3 KB)
+0049.641 (0) Table wp9d750cc7d9_posts: Total expected rows (approximate): 658
+0049.678 (0) Table wp9d750cc7d9_posts: Total rows added: 668 in 0.03 seconds
+0049.683 (0) Table wp9d750cc7d9_posts: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_posts.table.gz - 67 KB)
+0049.697 (0) Table wp9d750cc7d9_term_relationships: Total expected rows (approximate): 257
+0049.703 (0) Table wp9d750cc7d9_term_relationships: Total rows added: 257 in 0.00 seconds
+0049.707 (0) Table wp9d750cc7d9_term_relationships: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_term_relationships.table.gz - 1.1 KB)
+0049.721 (0) Table wp9d750cc7d9_term_taxonomy: Total expected rows (approximate): 89
+0049.727 (0) Table wp9d750cc7d9_term_taxonomy: Total rows added: 89 in 0.00 seconds
+0049.732 (0) Table wp9d750cc7d9_term_taxonomy: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_term_taxonomy.table.gz - 1.1 KB)
+0049.746 (0) Table wp9d750cc7d9_termmeta: Total expected rows (approximate): 43
+0049.752 (0) Table wp9d750cc7d9_termmeta: Total rows added: 43 in 0.00 seconds
+0049.756 (0) Table wp9d750cc7d9_termmeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_termmeta.table.gz - 0.7 KB)
+0049.772 (0) Table wp9d750cc7d9_terms: Total expected rows (approximate): 89
+0049.777 (0) Table wp9d750cc7d9_terms: Total rows added: 89 in 0.00 seconds
+0049.781 (0) Table wp9d750cc7d9_terms: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_terms.table.gz - 1.6 KB)
+0049.795 (0) Table wp9d750cc7d9_wc_category_lookup: Total expected rows (approximate): 9
+0049.800 (0) Table wp9d750cc7d9_wc_category_lookup: Total rows added: 9 in 0.00 seconds
+0049.804 (0) Table wp9d750cc7d9_wc_category_lookup: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_category_lookup.table.gz - 0.4 KB)
+0049.819 (0) Table wp9d750cc7d9_wc_product_meta_lookup: Total expected rows (approximate): 73
+0049.826 (0) Table wp9d750cc7d9_wc_product_meta_lookup: Total rows added: 73 in 0.00 seconds
+0049.830 (0) Table wp9d750cc7d9_wc_product_meta_lookup: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_product_meta_lookup.table.gz - 1.3 KB)
+0049.843 (0) Table wp9d750cc7d9_wc_tax_rate_classes: Total expected rows (approximate): 2
+0049.848 (0) Table wp9d750cc7d9_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0049.852 (0) Table wp9d750cc7d9_wc_tax_rate_classes: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_tax_rate_classes.table.gz - 0.4 KB)
+0049.864 (0) Table wp9d750cc7d9_woocommerce_order_itemmeta: Total expected rows (approximate): 7971
+0049.930 (0) Table wp9d750cc7d9_woocommerce_order_itemmeta: Total rows added: 7971 in 0.06 seconds
+0049.935 (0) Table wp9d750cc7d9_woocommerce_order_itemmeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_order_itemmeta.table.gz - 49.6 KB)
+0049.948 (0) Table wp9d750cc7d9_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0049.954 (0) Table wp9d750cc7d9_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0049.957 (0) Table wp9d750cc7d9_woocommerce_payment_tokenmeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0049.968 (0) Table wp9d750cc7d9_yoast_seo_links: Total expected rows (approximate): 79
+0049.973 (0) Table wp9d750cc7d9_yoast_seo_links: Total rows added: 79 in 0.00 seconds
+0049.977 (0) Table wp9d750cc7d9_yoast_seo_links: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_seo_links.table.gz - 1.7 KB)
+0049.990 (0) Table wp9d750cc7d9_yoast_seo_meta: Total expected rows (approximate): 356
+0049.995 (0) Table wp9d750cc7d9_yoast_seo_meta: Total rows added: 356 in 0.00 seconds
+0049.999 (0) Table wp9d750cc7d9_yoast_seo_meta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_seo_meta.table.gz - 1.2 KB)
+0050.011 (0) Table wp9d750cc7d9_db7_forms: Total expected rows (approximate): 42
+0050.018 (0) Table wp9d750cc7d9_db7_forms: Total rows added: 42 in 0.00 seconds
+0050.021 (0) Table wp9d750cc7d9_db7_forms: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_db7_forms.table.gz - 14 KB)
+0050.032 (0) Table wp9d750cc7d9_ewwwio_images: Total expected rows (approximate): 2576
+0050.091 (0) Table wp9d750cc7d9_ewwwio_images: Total rows added: 2576 in 0.06 seconds
+0050.096 (0) Table wp9d750cc7d9_ewwwio_images: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_ewwwio_images.table.gz - 68.6 KB)
+0050.108 (0) Table wp9d750cc7d9_litespeed_img_optm: Total expected rows (approximate): 0
+0050.113 (0) Table wp9d750cc7d9_litespeed_img_optm: Total rows added: 0 in 0.00 seconds
+0050.116 (0) Table wp9d750cc7d9_litespeed_img_optm: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_litespeed_img_optm.table.gz - 0.5 KB)
+0050.127 (0) Table wp9d750cc7d9_litespeed_optimizer: Total expected rows (approximate): 0
+0050.131 (0) Table wp9d750cc7d9_litespeed_optimizer: Total rows added: 0 in 0.00 seconds
+0050.134 (0) Table wp9d750cc7d9_litespeed_optimizer: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_litespeed_optimizer.table.gz - 0.4 KB)
+0050.144 (0) Table wp9d750cc7d9_mailchimp_carts: Total expected rows (approximate): 9
+0050.149 (0) Table wp9d750cc7d9_mailchimp_carts: Total rows added: 9 in 0.00 seconds
+0050.152 (0) Table wp9d750cc7d9_mailchimp_carts: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_mailchimp_carts.table.gz - 1.6 KB)
+0050.163 (0) Table wp9d750cc7d9_mailchimp_jobs: Total expected rows (approximate): 0
+0050.168 (0) Table wp9d750cc7d9_mailchimp_jobs: Total rows added: 0 in 0.00 seconds
+0050.171 (0) Table wp9d750cc7d9_mailchimp_jobs: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_mailchimp_jobs.table.gz - 0.3 KB)
+0050.183 (0) Table wp9d750cc7d9_psninja_amdd: Total expected rows (approximate): 18714
+0050.412 (0) Table wp9d750cc7d9_psninja_amdd: Total rows added: 18714 in 0.23 seconds
+0050.416 (0) Table wp9d750cc7d9_psninja_amdd: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_psninja_amdd.table.gz - 180.1 KB)
+0050.429 (0) Table wp9d750cc7d9_psninja_amdd_cache: Total expected rows (approximate): 1
+0050.434 (0) Table wp9d750cc7d9_psninja_amdd_cache: Total rows added: 1 in 0.00 seconds
+0050.437 (0) Table wp9d750cc7d9_psninja_amdd_cache: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_psninja_amdd_cache.table.gz - 0.5 KB)
+0050.449 (0) Table wp9d750cc7d9_psninja_urls: Total expected rows (approximate): 50
+0050.455 (0) Table wp9d750cc7d9_psninja_urls: Total rows added: 50 in 0.00 seconds
+0050.458 (0) Table wp9d750cc7d9_psninja_urls: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_psninja_urls.table.gz - 2.5 KB)
+0050.470 (0) Table wp9d750cc7d9_revslider_css: Total expected rows (approximate): 112
+0050.479 (0) Table wp9d750cc7d9_revslider_css: Total rows added: 112 in 0.01 seconds
+0050.483 (0) Table wp9d750cc7d9_revslider_css: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_css.table.gz - 5 KB)
+0050.497 (0) Table wp9d750cc7d9_revslider_layer_animations: Total expected rows (approximate): 0
+0050.501 (0) Table wp9d750cc7d9_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0050.504 (0) Table wp9d750cc7d9_revslider_layer_animations: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_layer_animations.table.gz - 0.3 KB)
+0050.516 (0) Table wp9d750cc7d9_revslider_navigations: Total expected rows (approximate): 0
+0050.521 (0) Table wp9d750cc7d9_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0050.524 (0) Table wp9d750cc7d9_revslider_navigations: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_navigations.table.gz - 0.3 KB)
+0050.537 (0) Table wp9d750cc7d9_revslider_sliders: Total expected rows (approximate): 1
+0050.542 (0) Table wp9d750cc7d9_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0050.545 (0) Table wp9d750cc7d9_revslider_sliders: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_sliders.table.gz - 3.1 KB)
+0050.556 (0) Table wp9d750cc7d9_revslider_slides: Total expected rows (approximate): 6
+0050.561 (0) Table wp9d750cc7d9_revslider_slides: Total rows added: 6 in 0.00 seconds
+0050.564 (0) Table wp9d750cc7d9_revslider_slides: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_slides.table.gz - 2 KB)
+0050.575 (0) Table wp9d750cc7d9_revslider_static_slides: Total expected rows (approximate): 1
+0050.580 (0) Table wp9d750cc7d9_revslider_static_slides: Total rows added: 1 in 0.00 seconds
+0050.583 (0) Table wp9d750cc7d9_revslider_static_slides: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_static_slides.table.gz - 2.2 KB)
+0050.595 (0) Table wp9d750cc7d9_tm_taskmeta: Total expected rows (approximate): 4
+0050.599 (0) Table wp9d750cc7d9_tm_taskmeta: Total rows added: 4 in 0.00 seconds
+0050.603 (0) Table wp9d750cc7d9_tm_taskmeta: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_tm_taskmeta.table.gz - 0.8 KB)
+0050.615 (0) Table wp9d750cc7d9_tm_tasks: Total expected rows (approximate): 4
+0050.620 (0) Table wp9d750cc7d9_tm_tasks: Total rows added: 4 in 0.00 seconds
+0050.623 (0) Table wp9d750cc7d9_tm_tasks: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_tm_tasks.table.gz - 0.6 KB)
+0050.636 (0) Table wp9d750cc7d9_wc_admin_note_actions: Total expected rows (approximate): 17
+0050.641 (0) Table wp9d750cc7d9_wc_admin_note_actions: Total rows added: 17 in 0.00 seconds
+0050.644 (0) Table wp9d750cc7d9_wc_admin_note_actions: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_admin_note_actions.table.gz - 1.1 KB)
+0050.657 (0) Table wp9d750cc7d9_wc_admin_notes: Total expected rows (approximate): 13
+0050.664 (0) Table wp9d750cc7d9_wc_admin_notes: Total rows added: 13 in 0.00 seconds
+0050.668 (0) Table wp9d750cc7d9_wc_admin_notes: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_admin_notes.table.gz - 2 KB)
+0050.679 (0) Table wp9d750cc7d9_wc_customer_lookup: Total expected rows (approximate): 156
+0050.687 (0) Table wp9d750cc7d9_wc_customer_lookup: Total rows added: 156 in 0.00 seconds
+0050.691 (0) Table wp9d750cc7d9_wc_customer_lookup: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_customer_lookup.table.gz - 5.9 KB)
+0050.704 (0) Table wp9d750cc7d9_wc_download_log: Total expected rows (approximate): 0
+0050.709 (0) Table wp9d750cc7d9_wc_download_log: Total rows added: 0 in 0.00 seconds
+0050.712 (0) Table wp9d750cc7d9_wc_download_log: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_download_log.table.gz - 0.4 KB)
+0050.724 (0) Table wp9d750cc7d9_wc_order_coupon_lookup: Total expected rows (approximate): 29
+0050.729 (0) Table wp9d750cc7d9_wc_order_coupon_lookup: Total rows added: 29 in 0.00 seconds
+0050.733 (0) Table wp9d750cc7d9_wc_order_coupon_lookup: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_coupon_lookup.table.gz - 0.7 KB)
+0050.744 (0) Table wp9d750cc7d9_wc_order_product_lookup: Total expected rows (approximate): 781
+0050.760 (0) Table wp9d750cc7d9_wc_order_product_lookup: Total rows added: 781 in 0.01 seconds
+0050.764 (0) Table wp9d750cc7d9_wc_order_product_lookup: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_product_lookup.table.gz - 9.3 KB)
+0050.776 (0) Table wp9d750cc7d9_wc_order_stats: Total expected rows (approximate): 209
+0050.784 (0) Table wp9d750cc7d9_wc_order_stats: Total rows added: 209 in 0.00 seconds
+0050.788 (0) Table wp9d750cc7d9_wc_order_stats: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_stats.table.gz - 4.6 KB)
+0050.799 (0) Table wp9d750cc7d9_wc_order_tax_lookup: Total expected rows (approximate): 0
+0050.804 (0) Table wp9d750cc7d9_wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0050.807 (0) Table wp9d750cc7d9_wc_order_tax_lookup: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_tax_lookup.table.gz - 0.4 KB)
+0050.820 (0) Table wp9d750cc7d9_wc_webhooks: Total expected rows (approximate): 0
+0050.827 (0) Table wp9d750cc7d9_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0050.830 (0) Table wp9d750cc7d9_wc_webhooks: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_webhooks.table.gz - 0.5 KB)
+0050.844 (0) Table wp9d750cc7d9_woocommerce_api_keys: Total expected rows (approximate): 0
+0050.848 (0) Table wp9d750cc7d9_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0050.852 (0) Table wp9d750cc7d9_woocommerce_api_keys: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_api_keys.table.gz - 0.4 KB)
+0050.863 (0) Table wp9d750cc7d9_woocommerce_attribute_taxonomies: Total expected rows (approximate): 3
+0050.867 (0) Table wp9d750cc7d9_woocommerce_attribute_taxonomies: Total rows added: 3 in 0.00 seconds
+0050.870 (0) Table wp9d750cc7d9_woocommerce_attribute_taxonomies: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0050.882 (0) Table wp9d750cc7d9_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0050.886 (0) Table wp9d750cc7d9_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0050.890 (0) Table wp9d750cc7d9_woocommerce_downloadable_product_permissions: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0050.901 (0) Table wp9d750cc7d9_woocommerce_gc_activity: Total expected rows (approximate): 0
+0050.905 (0) Table wp9d750cc7d9_woocommerce_gc_activity: Total rows added: 0 in 0.00 seconds
+0050.908 (0) Table wp9d750cc7d9_woocommerce_gc_activity: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_gc_activity.table.gz - 0.4 KB)
+0050.920 (0) Table wp9d750cc7d9_woocommerce_gc_cards: Total expected rows (approximate): 0
+0050.925 (0) Table wp9d750cc7d9_woocommerce_gc_cards: Total rows added: 0 in 0.00 seconds
+0050.928 (0) Table wp9d750cc7d9_woocommerce_gc_cards: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_gc_cards.table.gz - 0.5 KB)
+0050.939 (0) Table wp9d750cc7d9_woocommerce_log: Total expected rows (approximate): 0
+0050.943 (0) Table wp9d750cc7d9_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0050.947 (0) Table wp9d750cc7d9_woocommerce_log: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_log.table.gz - 0.4 KB)
+0050.959 (0) Table wp9d750cc7d9_woocommerce_order_items: Total expected rows (approximate): 906
+0050.971 (0) Table wp9d750cc7d9_woocommerce_order_items: Total rows added: 906 in 0.01 seconds
+0050.975 (0) Table wp9d750cc7d9_woocommerce_order_items: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_order_items.table.gz - 6.2 KB)
+0050.989 (0) Table wp9d750cc7d9_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0050.994 (0) Table wp9d750cc7d9_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0050.997 (0) Table wp9d750cc7d9_woocommerce_payment_tokens: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0051.010 (0) Table wp9d750cc7d9_woocommerce_sessions: Total expected rows (approximate): 0
+0051.014 (0) Table wp9d750cc7d9_woocommerce_sessions: Total rows added: 0 in 0.00 seconds
+0051.017 (0) Table wp9d750cc7d9_woocommerce_sessions: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_sessions.table.gz - 0.4 KB)
+0051.029 (0) Table wp9d750cc7d9_woocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+0051.034 (0) Table wp9d750cc7d9_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0051.038 (0) Table wp9d750cc7d9_woocommerce_shipping_zone_locations: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0051.052 (0) Table wp9d750cc7d9_woocommerce_shipping_zone_methods: Total expected rows (approximate): 1
+0051.057 (0) Table wp9d750cc7d9_woocommerce_shipping_zone_methods: Total rows added: 1 in 0.00 seconds
+0051.061 (0) Table wp9d750cc7d9_woocommerce_shipping_zone_methods: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0051.075 (0) Table wp9d750cc7d9_woocommerce_shipping_zones: Total expected rows (approximate): 1
+0051.080 (0) Table wp9d750cc7d9_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0051.086 (0) Table wp9d750cc7d9_woocommerce_shipping_zones: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0051.099 (0) Table wp9d750cc7d9_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0051.104 (0) Table wp9d750cc7d9_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0051.107 (0) Table wp9d750cc7d9_woocommerce_tax_rate_locations: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0051.120 (0) Table wp9d750cc7d9_woocommerce_tax_rates: Total expected rows (approximate): 0
+0051.125 (0) Table wp9d750cc7d9_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0051.129 (0) Table wp9d750cc7d9_woocommerce_tax_rates: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_tax_rates.table.gz - 0.4 KB)
+0051.141 (0) Table wp9d750cc7d9_yoast_indexable: Total expected rows (approximate): 492
+0051.166 (0) Table wp9d750cc7d9_yoast_indexable: Total rows added: 482 in 0.02 seconds
+0051.171 (0) Table wp9d750cc7d9_yoast_indexable: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_indexable.table.gz - 34.6 KB)
+0051.184 (0) Table wp9d750cc7d9_yoast_indexable_hierarchy: Total expected rows (approximate): 11
+0051.190 (0) Table wp9d750cc7d9_yoast_indexable_hierarchy: Total rows added: 12 in 0.00 seconds
+0051.194 (0) Table wp9d750cc7d9_yoast_indexable_hierarchy: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0051.207 (0) Table wp9d750cc7d9_yoast_migrations: Total expected rows (approximate): 14
+0051.212 (0) Table wp9d750cc7d9_yoast_migrations: Total rows added: 14 in 0.00 seconds
+0051.216 (0) Table wp9d750cc7d9_yoast_migrations: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_migrations.table.gz - 0.5 KB)
+0051.228 (0) Table wp9d750cc7d9_yoast_primary_term: Total expected rows (approximate): 46
+0051.233 (0) Table wp9d750cc7d9_yoast_primary_term: Total rows added: 46 in 0.00 seconds
+0051.237 (0) Table wp9d750cc7d9_yoast_primary_term: finishing file (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_primary_term.table.gz - 1.2 KB)
+0051.243 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_commentmeta
+0051.247 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_comments
+0051.249 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_links
+0051.252 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_options
+0051.254 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_postmeta
+0051.257 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_posts
+0051.258 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_term_relationships
+0051.262 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_term_taxonomy
+0051.264 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_termmeta
+0051.266 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_terms
+0051.269 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_usermeta
+0051.271 (0) Skipping table (lacks our prefix (wp9d750cc7d9_)): wp_users
+0051.274 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_options.table.gz (1/79): adding to final database dump
+0051.316 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_users.table.gz (2/79): adding to final database dump
+0051.321 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_usermeta.table.gz (3/79): adding to final database dump
+0051.334 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_actions.table.gz (4/79): adding to final database dump
+0051.344 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_claims.table.gz (5/79): adding to final database dump
+0051.348 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_groups.table.gz (6/79): adding to final database dump
+0051.352 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_actionscheduler_logs.table.gz (7/79): adding to final database dump
+0051.364 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_commentmeta.table.gz (8/79): adding to final database dump
+0051.368 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_comments.table.gz (9/79): adding to final database dump
+0051.376 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_links.table.gz (10/79): adding to final database dump
+0051.381 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_postmeta.table.gz (11/79): adding to final database dump
+0051.446 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_posts.table.gz (12/79): adding to final database dump
+0051.465 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_term_relationships.table.gz (13/79): adding to final database dump
+0051.472 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_term_taxonomy.table.gz (14/79): adding to final database dump
+0051.475 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_termmeta.table.gz (15/79): adding to final database dump
+0051.479 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_terms.table.gz (16/79): adding to final database dump
+0051.483 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_category_lookup.table.gz (17/79): adding to final database dump
+0051.486 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_product_meta_lookup.table.gz (18/79): adding to final database dump
+0051.489 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_tax_rate_classes.table.gz (19/79): adding to final database dump
+0051.493 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_order_itemmeta.table.gz (20/79): adding to final database dump
+0051.517 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_payment_tokenmeta.table.gz (21/79): adding to final database dump
+0051.521 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_seo_links.table.gz (22/79): adding to final database dump
+0051.524 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_seo_meta.table.gz (23/79): adding to final database dump
+0051.528 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_db7_forms.table.gz (24/79): adding to final database dump
+0051.533 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_ewwwio_images.table.gz (25/79): adding to final database dump
+0051.556 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_litespeed_img_optm.table.gz (26/79): adding to final database dump
+0051.560 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_litespeed_optimizer.table.gz (27/79): adding to final database dump
+0051.563 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_mailchimp_carts.table.gz (28/79): adding to final database dump
+0051.567 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_mailchimp_jobs.table.gz (29/79): adding to final database dump
+0051.570 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_psninja_amdd.table.gz (30/79): adding to final database dump
+0051.645 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_psninja_amdd_cache.table.gz (31/79): adding to final database dump
+0051.650 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_psninja_urls.table.gz (32/79): adding to final database dump
+0051.654 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_css.table.gz (33/79): adding to final database dump
+0051.660 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_layer_animations.table.gz (34/79): adding to final database dump
+0051.663 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_navigations.table.gz (35/79): adding to final database dump
+0051.667 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_sliders.table.gz (36/79): adding to final database dump
+0051.671 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_slides.table.gz (37/79): adding to final database dump
+0051.675 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_revslider_static_slides.table.gz (38/79): adding to final database dump
+0051.678 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_tm_taskmeta.table.gz (39/79): adding to final database dump
+0051.681 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_tm_tasks.table.gz (40/79): adding to final database dump
+0051.684 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_admin_note_actions.table.gz (41/79): adding to final database dump
+0051.686 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_admin_notes.table.gz (42/79): adding to final database dump
+0051.689 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_customer_lookup.table.gz (43/79): adding to final database dump
+0051.694 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_download_log.table.gz (44/79): adding to final database dump
+0051.697 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_coupon_lookup.table.gz (45/79): adding to final database dump
+0051.701 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_product_lookup.table.gz (46/79): adding to final database dump
+0051.706 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_stats.table.gz (47/79): adding to final database dump
+0051.712 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_order_tax_lookup.table.gz (48/79): adding to final database dump
+0051.715 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_wc_webhooks.table.gz (49/79): adding to final database dump
+0051.719 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_api_keys.table.gz (50/79): adding to final database dump
+0051.722 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_attribute_taxonomies.table.gz (51/79): adding to final database dump
+0051.725 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_downloadable_product_permissions.table.gz (52/79): adding to final database dump
+0051.727 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_gc_activity.table.gz (53/79): adding to final database dump
+0051.730 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_gc_cards.table.gz (54/79): adding to final database dump
+0051.733 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_log.table.gz (55/79): adding to final database dump
+0051.734 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_order_items.table.gz (56/79): adding to final database dump
+0051.739 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_payment_tokens.table.gz (57/79): adding to final database dump
+0051.742 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_sessions.table.gz (58/79): adding to final database dump
+0051.746 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_shipping_zone_locations.table.gz (59/79): adding to final database dump
+0051.749 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_shipping_zone_methods.table.gz (60/79): adding to final database dump
+0051.751 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_shipping_zones.table.gz (61/79): adding to final database dump
+0051.754 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_tax_rate_locations.table.gz (62/79): adding to final database dump
+0051.757 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_woocommerce_tax_rates.table.gz (63/79): adding to final database dump
+0051.760 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_indexable.table.gz (64/79): adding to final database dump
+0051.771 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_indexable_hierarchy.table.gz (65/79): adding to final database dump
+0051.775 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_migrations.table.gz (66/79): adding to final database dump
+0051.779 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db-table-wp9d750cc7d9_yoast_primary_term.table.gz (67/79): adding to final database dump
+0051.783 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz: finished writing out complete database file (904 KB)
+0051.815 (0) Total database tables backed up: 67 (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz, size: 938791, sha256)
+0051.839 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0051.842 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0051.845 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip: plugins: This file has not yet been successfully uploaded: will queue
+0051.846 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0051.849 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip: themes: This file has not yet been successfully uploaded: will queue
+0051.853 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.854 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.857 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.860 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.862 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.865 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.867 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.869 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.871 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.873 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.875 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.877 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.880 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.882 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.885 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip: uploads: This file has not yet been successfully uploaded: will queue
+0051.886 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0051.889 (0) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0051.891 (0) Saving backup history. Total backup size: 473.8 MB
+0051.900 (0) Requesting upload of the files that have not yet been successfully uploaded (22)
+0051.910 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0051.913 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-09baf08ac71586e7157eac1d2b18b8d6)
+0051.916 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0051.933 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0052.273 (0) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0052.277 (0) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip
+0053.287 (0) Dropbox chunked upload: 3.5 % uploaded (AAAAAAABvTOcRBL9HKi8LQ, 1048576, 8704 KB)
+0056.420 (0) Dropbox chunked upload: 33.1 % uploaded (AAAAAAABvTOcRBL9HKi8LQ, 9961472, 10240 KB)
+0059.312 (0) Dropbox chunked upload: 67.9 % uploaded (AAAAAAABvTOcRBL9HKi8LQ, 20447232, 10240 KB)
+0061.384 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTOcRBL9HKi8LQ, 30115844, 10240 KB)
+0062.787 (0) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip (14a7e2bdce2683fa5bc4284c116bdcd7)
+0062.802 (0) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0062.805 (0) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip): 29410 KB in 10s (2793 KB/s)
+0062.993 (0) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0062.998 (0) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip
+0064.792 (0) Dropbox chunked upload: 40.3 % uploaded (AAAAAAABvTQka0RGdEnd3w, 10485760, 10240 KB)
+0066.628 (0) Dropbox chunked upload: 80.6 % uploaded (AAAAAAABvTQka0RGdEnd3w, 20971520, 10240 KB)
+0069.282 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTQka0RGdEnd3w, 26023860, 10240 KB)
+0070.497 (0) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip (ebb1d16e2427d65e5570f032a9ad0ed2)
+0070.509 (0) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip: skipped: user has unchecked updraft_delete_local option
+0070.511 (0) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip): 25413 KB in 7s (3382 KB/s)
+0070.698 (0) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0070.703 (0) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip
+0071.994 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTWCEqicqly4GQ, 4391377, 10240 KB)
+0308.931 (1) Opened log file at time: Thu, 23 Jul 2020 05:08:59 +0000 on http://rdcestaging.wpengine.com
+0308.935 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.4.1 WP: 5.4.2 PHP: 7.4.6 (apache2handler, Linux pod-120354 5.3.0-1018-gcp #19~18.04.1-Ubuntu SMP Tue Apr 14 12:49:45 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 11.5M | 6M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0308.939 (1) Free space on disk containing Updraft's temporary directory: Unknown
+0308.946 (1) Backup run: resumption=1, nonce=a816bdaf245d, begun at=1595480630 (309s ago), job type=backup, previous check-in=72s
+0308.954 (1) Scheduling a resumption (2) after 300 seconds (1595481239) in case this run gets aborted
+0308.985 (1) Checking if we have a zip executable available
+0308.990 (1) Creation of backups of directories: already finished
+0308.994 (1) Saving backup status to database (elements: 25)
+0309.005 (1) Database dump (WordPress DB): Creation was completed already
+0309.022 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip: plugins: This file has already been successfully uploaded
+0309.026 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip: plugins: This file has already been successfully uploaded
+0309.029 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip: plugins: This file has not yet been successfully uploaded: will queue
+0309.031 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0309.034 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip: themes: This file has not yet been successfully uploaded: will queue
+0309.037 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.039 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.041 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.043 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.045 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.047 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.049 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.052 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.054 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.056 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.058 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.061 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.064 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.066 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.069 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip: uploads: This file has not yet been successfully uploaded: will queue
+0309.071 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0309.074 (1) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0309.077 (1) Saving backup history. Total backup size: 473.8 MB
+0309.085 (1) Requesting upload of the files that have not yet been successfully uploaded (20)
+0309.089 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0309.091 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-09baf08ac71586e7157eac1d2b18b8d6)
+0309.094 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0309.118 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+0309.432 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0309.436 (1) This is a resumption: 4391377 bytes had already been uploaded
+0309.440 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip
+0310.850 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip (8786053a76eb3655d2a108bd3e6ce9cf)
+0310.885 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip: skipped: user has unchecked updraft_delete_local option
+0310.897 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip): 4288 KB in 1s (2936 KB/s)
+0311.120 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0311.126 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip
+0313.027 (1) Dropbox chunked upload: 31.8 % uploaded (AAAAAAABvTaJExH8dttAgA, 10485760, 10240 KB)
+0315.509 (1) Dropbox chunked upload: 63.7 % uploaded (AAAAAAABvTaJExH8dttAgA, 20971520, 10240 KB)
+0317.258 (1) Dropbox chunked upload: 95.5 % uploaded (AAAAAAABvTaJExH8dttAgA, 31457280, 10240 KB)
+0318.315 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTaJExH8dttAgA, 32926479, 10240 KB)
+0319.966 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip (84ee1f5990882f7836dfd43d2d0761b9)
+0319.977 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip: skipped: user has unchecked updraft_delete_local option
+0319.979 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip): 32154 KB in 8s (3632 KB/s)
+0320.162 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0320.167 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip
+0322.649 (1) Dropbox chunked upload: 52.6 % uploaded (AAAAAAABvTemlQhA-q-7lA, 10485760, 10240 KB)
+0324.557 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTemlQhA-q-7lA, 19942244, 10240 KB)
+0326.080 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip (5e24da26a9e212c7d8b97018c0d6cea8)
+0326.090 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip: skipped: user has unchecked updraft_delete_local option
+0326.093 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip): 19474 KB in 5s (3285 KB/s)
+0326.282 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0326.286 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip
+0328.396 (1) Dropbox chunked upload: 39.5 % uploaded (AAAAAAABvTgKp1uk7sJCng, 10485760, 10240 KB)
+0329.798 (1) Dropbox chunked upload: 79.1 % uploaded (AAAAAAABvTgKp1uk7sJCng, 20971520, 10240 KB)
+0331.677 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTgKp1uk7sJCng, 26522639, 10240 KB)
+0333.669 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip (d71949cd388e4365f4906715d6cec080)
+0333.681 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip: skipped: user has unchecked updraft_delete_local option
+0333.684 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip): 25901 KB in 7s (3501 KB/s)
+0333.880 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0333.884 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip
+0336.285 (1) Dropbox chunked upload: 39.9 % uploaded (AAAAAAABvTm3_12JuZJUAg, 10485760, 10240 KB)
+0338.381 (1) Dropbox chunked upload: 79.7 % uploaded (AAAAAAABvTm3_12JuZJUAg, 20971520, 10240 KB)
+0340.019 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTm3_12JuZJUAg, 26310547, 10240 KB)
+0341.477 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip (a8d521cd89591ba5ceb9097f545cd5f8)
+0341.487 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip: skipped: user has unchecked updraft_delete_local option
+0341.490 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip): 25693 KB in 7s (3378 KB/s)
+0341.674 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0341.678 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip
+0343.536 (1) Dropbox chunked upload: 39.7 % uploaded (AAAAAAABvTr8kP1xCgLweA, 10485760, 10240 KB)
+0346.418 (1) Dropbox chunked upload: 79.5 % uploaded (AAAAAAABvTr8kP1xCgLweA, 20971520, 10240 KB)
+0348.397 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTr8kP1xCgLweA, 26386767, 10240 KB)
+0349.868 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip (006f3a98b2104f452fa13cb6165b30c7)
+0349.880 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip: skipped: user has unchecked updraft_delete_local option
+0349.883 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip): 25768 KB in 8s (3140 KB/s)
+0350.087 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0350.091 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip
+0352.035 (1) Dropbox chunked upload: 39.8 % uploaded (AAAAAAABvTtLYv7XfvpRIA, 10485760, 10240 KB)
+0354.673 (1) Dropbox chunked upload: 79.7 % uploaded (AAAAAAABvTtLYv7XfvpRIA, 20971520, 10240 KB)
+0356.479 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAABvTtLYv7XfvpRIA, 26321423, 10240 KB)
+0358.110 (1) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip (c5269ba2c61c8fd2317fd1e227dd8254)
+0358.122 (1) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip: skipped: user has unchecked updraft_delete_local option
+0358.125 (1) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip): 25704 KB in 8s (3199 KB/s)
+0358.311 (1) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+0358.315 (1) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip
+0360.930 (1) Dropbox chunked upload: 39.8 % uploaded (AAAAAAABvTwjyt_-PfpCdQ, 10485760, 10240 KB)
+0369.686 (1) Dropbox chunked upload: 79.6 % uploaded (AAAAAAABvTwjyt_-PfpCdQ, 20971520, 10240 KB)
+1155.517 (2) Opened log file at time: Thu, 23 Jul 2020 05:23:06 +0000 on http://rdcestaging.wpengine.com
+1155.520 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.4.1 WP: 5.4.2 PHP: 7.4.6 (apache2handler, Linux pod-120354 5.3.0-1018-gcp #19~18.04.1-Ubuntu SMP Tue Apr 14 12:49:45 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 10.6M | 4M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+1155.524 (2) Free space on disk containing Updraft's temporary directory: Unknown
+1155.531 (2) Backup run: resumption=2, nonce=a816bdaf245d, begun at=1595480630 (1156s ago), job type=backup, previous check-in=60.8s
+1155.538 (2) Scheduling a resumption (3) after 300 seconds (1595482086) in case this run gets aborted
+1155.568 (2) Checking if we have a zip executable available
+1155.573 (2) Creation of backups of directories: already finished
+1155.577 (2) Saving backup status to database (elements: 25)
+1155.593 (2) Database dump (WordPress DB): Creation was completed already
+1155.610 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins.zip: plugins: This file has already been successfully uploaded
+1155.613 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins2.zip: plugins: This file has already been successfully uploaded
+1155.617 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-plugins3.zip: plugins: This file has already been successfully uploaded
+1155.619 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes.zip: themes: This file has already been successfully uploaded
+1155.622 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-themes2.zip: themes: This file has already been successfully uploaded
+1155.626 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads.zip: uploads: This file has already been successfully uploaded
+1155.630 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads2.zip: uploads: This file has already been successfully uploaded
+1155.633 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads3.zip: uploads: This file has already been successfully uploaded
+1155.637 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads4.zip: uploads: This file has already been successfully uploaded
+1155.639 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.642 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.645 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.647 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.650 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.654 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.657 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.659 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.662 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.666 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.669 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip: uploads: This file has not yet been successfully uploaded: will queue
+1155.671 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip: others: This file has not yet been successfully uploaded: will queue
+1155.675 (2) backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz: db: This file has not yet been successfully uploaded: will queue
+1155.678 (2) Saving backup history. Total backup size: 473.8 MB
+1155.689 (2) Requesting upload of the files that have not yet been successfully uploaded (13)
+1155.692 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1155.696 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-09baf08ac71586e7157eac1d2b18b8d6)
+1155.700 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1155.718 (2) Dropbox: access gained; setting chunk size to: 10240 KB
+1156.019 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1156.023 (2) This is a resumption: 20971520 bytes had already been uploaded
+1156.027 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip
+1156.749 (2) Dropbox chunked upload exception (Exception): Submitted input out of alignment: got [20971520] expected [26352953] (line: 200, file: /nas/content/live/rdcestaging/wp-content/plugins/updraftplus/includes/Dropbox2/API.php)
+1156.753 (2) Dropbox not yet aligned: tried=20971520, wanted=26352953; will attempt recovery
+1159.022 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip (f2ec961abea3b726a9435f70fa7e0464)
+1159.040 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip: skipped: user has unchecked updraft_delete_local option
+1159.045 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads5.zip): 25735 KB in 3s (8517 KB/s)
+1159.136 (2) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: <!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Dropbox - 4xx</title>
+<link href="https://cfl.dropboxstatic.com/static/css/error.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="https://cfl.dropboxstatic.com/static/images/favicon.ico"/>
+
+</head>
+<body>
+<div class="figure">
+<img src="https://cfl.dropboxstatic.com/static/images/illustration_catalog/404_error-illo.png" srcset="https://cfl.dropboxstatic.com/static/images/illustration_catalog/404_error-illo@2x.png 2x" alt="Error: 4xx"/>
+</div>
+<div id="errorbox">
+<div class="not-found"> <h1>Error (4xx)</h1> We can't find the page you're looking for. <div class="not-found--links"> Here are a few links that may be helpful: <ul> <li><a href="https://www.dropbox.com/home?_tk=fof">Home</a></li> <li><a href="https://www.dropbox.com/help?_tk=fof">Help center</a></li> <li><a href="https://www.dropbox.com/login?_tk=fof">Sign in</a></li> <li><a href="https://www.dropbox.com/register?_tk=fof">Get a free account</a></li> <li><a href="https://www.dropbox.com/plus?_tk=fof">Dropbox Plus</a></li> <li><a href="https://www.dropbox.com/business?_tk=fof">Dropbox Business</a></li> </ul> </div> </div>
+</div>
+
+<script>
+message = {"ru": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003e\u041e\u0448\u0438\u0431\u043a\u0430 (4xx)\u003c/h1\u003e \u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0432\u044b \u0438\u0449\u0435\u0442\u0435. \u003cdiv class=\"not-found--links\"\u003e \u0412\u043e\u0442 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0441\u044b\u043b\u043e\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043f\u0440\u0438\u0433\u043e\u0434\u0438\u0442\u044c\u0441\u044f: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u0414\u043e\u043c\u0430\u0448\u043d\u044f\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u0412\u043e\u0439\u0442\u0438\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u0417\u0430\u0432\u0435\u0434\u0438\u0442\u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "fr": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eErreur (4xx)\u003c/h1\u003e La page recherch\u00e9e est introuvable. \u003cdiv class=\"not-found--links\"\u003e Voici quelques liens utiles\u00a0: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eAccueil\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentre d'assistance\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eSe connecter\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObtenir un compte gratuit\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox\u00a0Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox\u00a0Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "zh_TW": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u932f\u8aa4 (4xx)\u003c/h1\u003e \u6211\u5011\u627e\u4e0d\u5230\u60a8\u8981\u67e5\u770b\u7684\u9801\u9762\u3002\u003cdiv class=\"not-found--links\"\u003e\u8acb\u53c3\u8003\u4ee5\u4e0b\u9023\u7d50\uff1a\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u9996\u9801\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u8aaa\u660e\u4e2d\u5fc3\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u767b\u5165\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u53d6\u5f97\u514d\u8cbb\u5e33\u6236\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "th_TH": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u0e02\u0e49\u0e2d\u0e1c\u0e34\u0e14\u0e1e\u0e25\u0e32\u0e14 (4xx)\u003c/h1\u003e \u0e40\u0e23\u0e32\u0e44\u0e21\u0e48\u0e1e\u0e1a\u0e2b\u0e19\u0e49\u0e32\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e2b\u0e32 \u003cdiv class=\"not-found--links\"\u003e \u0e19\u0e35\u0e48\u0e04\u0e37\u0e2d\u0e1a\u0e32\u0e07\u0e25\u0e34\u0e07\u0e01\u0e4c\u0e17\u0e35\u0e48\u0e2d\u0e32\u0e08\u0e40\u0e1b\u0e47\u0e19\u0e1b\u0e23\u0e30\u0e42\u0e22\u0e0a\u0e19\u0e4c: \u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u0e2b\u0e19\u0e49\u0e32\u0e2b\u0e25\u0e31\u0e01\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e04\u0e27\u0e32\u0e21\u0e0a\u0e48\u0e27\u0e22\u0e40\u0e2b\u0e25\u0e37\u0e2d\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u0e25\u0e07\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u0e23\u0e31\u0e1a\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e1f\u0e23\u0e35\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "pt_BR": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eErro (4xx)\u003c/h1\u003e N\u00e3o encontramos a p\u00e1gina que voc\u00ea est\u00e1 procurando. \u003cdiv class=\"not-found--links\"\u003e Aqui est\u00e3o alguns links para informa\u00e7\u00f5es que podem ser \u00fateis: \u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eP\u00e1gina inicial\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentral de ajuda\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAcessar\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObter uma conta gratuita\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "zh_CN": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u9519\u8bef (4xx)\u003c/h1\u003e\u6211\u4eec\u65e0\u6cd5\u627e\u5230\u60a8\u6b63\u5728\u5bfb\u627e\u7684\u9875\u9762\u3002\u003cdiv class=\"not-found--links\"\u003e\u4ee5\u4e0b\u51e0\u4e2a\u94fe\u63a5\u53ef\u80fd\u4f1a\u6709\u6240\u5e2e\u52a9\uff1a\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u9996\u9875\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u5e2e\u52a9\u4e2d\u5fc3\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u767b\u5f55\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u83b7\u53d6\u514d\u8d39\u5e10\u6237\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Pro\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "da_DK": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFejl (4xx)\u003c/h1\u003e Vi kan ikke finde den \u00f8nskede side. \u003cdiv class=\"not-found--links\"\u003e Du kan m\u00e5ske bruge disse links: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStartside\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHj\u00e6lpecenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eLog p\u00e5\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eOpret en gratis konto\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "de": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFehler (4xx)\u003c/h1\u003e Die gew\u00fcnschte Seite wurde nicht gefunden. \u003cdiv class=\"not-found--links\"\u003e Hier sind einige Links, die Ihnen vielleicht weiterhelfen: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStart\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHilfecenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAnmelden\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eKostenloses Konto erstellen\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "ko": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003e\uc624\ub958(4xx)\u003c/h1\u003e \ud574\ub2f9 \ud398\uc774\uc9c0\ub97c \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \u003cdiv class=\"not-found--links\"\u003e \uc544\ub798\uc5d0 \uba87 \uac00\uc9c0 \uc720\uc6a9\ud55c \ub9c1\ud06c\uac00 \ub098\uc640 \uc788\uc2b5\ub2c8\ub2e4. \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\ud648\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\ub3c4\uc6c0\ub9d0 \uc13c\ud130\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\ub85c\uadf8\uc778\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\ubb34\ub8cc \uacc4\uc815 \uc5bb\uae30\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "it": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eErrore (4xx)\u003c/h1\u003e Non troviamo la pagina che stai cercando. \u003cdiv class=\"not-found--links\"\u003e Ecco alcuni link che potrebbero essere utili: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHomepage\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentro assistenza\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAccedi\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eOttieni un account gratuito\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "ja": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u30a8\u30e9\u30fc\uff084xx\uff09\u003c/h1\u003e\u304a\u63a2\u3057\u306e\u30da\u30fc\u30b8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002\u003cdiv class=\"not-found--links\"\u003e\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u30db\u30fc\u30e0\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u30d8\u30eb\u30d7\u30bb\u30f3\u30bf\u30fc\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u30ed\u30b0\u30a4\u30f3\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u7121\u6599\u30a2\u30ab\u30a6\u30f3\u30c8\u4f5c\u6210\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "uk_UA": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u041f\u043e\u043c\u0438\u043b\u043a\u0430 (4xx)\u003c/h1\u003e \u041d\u0430\u043c \u043d\u0435 \u0432\u0434\u0430\u0454\u0442\u044c\u0441\u044f \u0437\u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0443, \u044f\u043a\u0443 \u0432\u0438 \u0448\u0443\u043a\u0430\u0454\u0442\u0435. \u003cdiv class=\"not-found--links\"\u003e \u041d\u0438\u0436\u0447\u0435 \u043d\u0430\u0432\u0435\u0434\u0435\u043d\u043e \u043a\u0456\u043b\u044c\u043a\u0430 \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u0445 \u043f\u043e\u0441\u0438\u043b\u0430\u043d\u044c: \u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u0414\u043e\u043c\u0430\u0448\u043d\u044f \u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0430\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u0426\u0435\u043d\u0442\u0440 \u0434\u043e\u0432\u0456\u0434\u043a\u0438\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u0412\u0445\u0456\u0434\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u041e\u0442\u0440\u0438\u043c\u0430\u043d\u043d\u044f \u0431\u0435\u0437\u043a\u043e\u0448\u0442\u043e\u0432\u043d\u043e\u0457 \u043e\u0431\u043b\u0456\u043a\u043e\u0432\u043a\u0438\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "nl_NL": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFout (4xx)\u003c/h1\u003e We kunnen de pagina die je zoekt niet vinden. \u003cdiv class=\"not-found--links\"\u003e Hier zijn een paar handige links: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStartpagina\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHelpcentrum\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAanmelden\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eEen gratis account maken\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "pl": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003eB\u0142\u0105d (4xx)\u003c/h1\u003e Nie mo\u017cemy znale\u017a\u0107 strony, kt\u00f3rej szukasz. \u003cdiv class=\"not-found--links\"\u003e Oto kilka \u0142\u0105czy, kt\u00f3re mog\u0105 si\u0119 przyda\u0107: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStrona g\u0142\u00f3wna\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentrum pomocy\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eZaloguj si\u0119\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eUzyskaj bezp\u0142atne konto\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "sv_SE": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFel (4xx)\u003c/h1\u003e Det g\u00e5r inte att hitta sidan du letar efter. \u003cdiv class=\"not-found--links\"\u003e H\u00e4r \u00e4r n\u00e5gra l\u00e4nkar som kan vara till hj\u00e4lp. \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHem\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHj\u00e4lpcenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eLogga in\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eSkaffa gratiskonto\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "en_GB": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eError (4xx)\u003c/h1\u003e We can't find the page you're looking for. \u003cdiv class=\"not-found--links\"\u003e Here are a few links that may be helpful: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHome\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHelp Centre\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eSign in\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eGet a free account\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "ms": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eRalat (4xx)\u003c/h1\u003e Kami tidak menemui halaman yang anda cari. \u003cdiv class=\"not-found--links\"\u003e Ini beberapa pautan yang boleh membantu: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eUtama\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003ePusat bantuan\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eDaftar masuk\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eDapatkan akaun percuma\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "es_ES": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eError (4xx)\u003c/h1\u003e No hemos encontrado la p\u00e1gina que est\u00e1s buscando. \u003cdiv class=\"not-found--links\"\u003e Aqu\u00ed tienes algunos enlaces que tal vez puedan ayudarte: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eInicio\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentro de ayuda\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eIniciar sesi\u00f3n\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObtener una cuenta gratis\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "nb_NO": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFeil (4xx)\u003c/h1\u003e Vi finner ikke siden du leter etter. \u003cdiv class=\"not-found--links\"\u003e Her er noen koblinger som kanskje kan hjelpe deg: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHjem\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHjelpesenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eLogg p\u00e5\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eF\u00e5 en gratis konto\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "id": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eKesalahan (4xx)\u003c/h1\u003e Kami tidak dapat menemukan halaman yang Anda cari. \u003cdiv class=\"not-found--links\"\u003e Berikut beberapa tautan yang mungkin bisa membantu: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eBeranda\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003ePusat bantuan\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eMasuk\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eDapatkan akun gratis\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "es": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eError (4xx)\u003c/h1\u003e No hemos encontrado la p\u00e1gina que est\u00e1s buscando. \u003cdiv class=\"not-found--links\"\u003e Aqu\u00ed tienes algunos enlaces que tal vez puedan ayudarte: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eInicio\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentro de ayuda\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eIniciar sesi\u00f3n\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObtener una cuenta gratis\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e"};
+function read_cookie (name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1, c.length);
+            }
+            if (c.indexOf(nameEQ) === 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+        }
+        return null;
+}
+function localize() {
+    var locale = read_cookie('locale');
+    if (locale) {
+       var msg = message[locale];
+       if (msg) {
+           var elem = document.getElementById('errorbox');
+           if (elem) {
+               elem.innerHTML = msg;
+           }
+       }
+    }
+}
+localize();
+</script>
+
+</body>
+</html>
+
+1159.142 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip
+1161.318 (2) Dropbox chunked upload: 40 % uploaded (AAAAAAABvT1JjIR32EJTAg, 10485760, 10240 KB)
+1163.018 (2) Dropbox chunked upload: 80 % uploaded (AAAAAAABvT1JjIR32EJTAg, 20971520, 10240 KB)
+1164.798 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvT1JjIR32EJTAg, 26223188, 10240 KB)
+1166.167 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip (d877883d3ff885aa1aa91123db30c9f2)
+1166.178 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip: skipped: user has unchecked updraft_delete_local option
+1166.181 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads6.zip): 25608 KB in 7s (3638 KB/s)
+1166.369 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1166.373 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip
+1168.479 (2) Dropbox chunked upload: 39.8 % uploaded (AAAAAAABvT7WBi8YLs23bw, 10485760, 10240 KB)
+1171.374 (2) Dropbox chunked upload: 79.5 % uploaded (AAAAAAABvT7WBi8YLs23bw, 20971520, 10240 KB)
+1173.044 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvT7WBi8YLs23bw, 26374345, 10240 KB)
+1174.421 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip (254a910011fa3121838d8288054ff6d8)
+1174.434 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip: skipped: user has unchecked updraft_delete_local option
+1174.444 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads7.zip): 25756 KB in 8s (3191 KB/s)
+1174.704 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1174.709 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip
+1176.494 (2) Dropbox chunked upload: 39.7 % uploaded (AAAAAAABvT8f9J2JQmfbXA, 10485760, 10240 KB)
+1178.372 (2) Dropbox chunked upload: 79.4 % uploaded (AAAAAAABvT8f9J2JQmfbXA, 20971520, 10240 KB)
+1179.945 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvT8f9J2JQmfbXA, 26418106, 10240 KB)
+1181.328 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip (8605c7b85fc979915ef4b0366ff01b68)
+1181.340 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip: skipped: user has unchecked updraft_delete_local option
+1181.343 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads8.zip): 25798 KB in 6s (3889 KB/s)
+1181.531 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1181.535 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip
+1183.423 (2) Dropbox chunked upload: 40 % uploaded (AAAAAAABvUBjxmGHeVsx9g, 10485760, 10240 KB)
+1185.669 (2) Dropbox chunked upload: 79.9 % uploaded (AAAAAAABvUBjxmGHeVsx9g, 20971520, 10240 KB)
+1187.172 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUBjxmGHeVsx9g, 26236320, 10240 KB)
+1188.511 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip (14be2243b511f8794ada51c97c94198e)
+1188.523 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip: skipped: user has unchecked updraft_delete_local option
+1188.526 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads9.zip): 25621 KB in 6s (3664 KB/s)
+1188.726 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1188.731 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip
+1190.741 (2) Dropbox chunked upload: 38.4 % uploaded (AAAAAAABvUFtJgA8hJ6gLw, 10485760, 10240 KB)
+1192.945 (2) Dropbox chunked upload: 76.7 % uploaded (AAAAAAABvUFtJgA8hJ6gLw, 20971520, 10240 KB)
+1194.558 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUFtJgA8hJ6gLw, 27325349, 10240 KB)
+1196.106 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip (ca3ef6bc4e660e2bdb99043a012a3ba2)
+1196.118 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip: skipped: user has unchecked updraft_delete_local option
+1196.121 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads10.zip): 26684 KB in 7s (3611 KB/s)
+1196.312 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1196.316 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip
+1198.165 (2) Dropbox chunked upload: 39.9 % uploaded (AAAAAAABvULRQETGQ284lg, 10485760, 10240 KB)
+1200.190 (2) Dropbox chunked upload: 79.9 % uploaded (AAAAAAABvULRQETGQ284lg, 20971520, 10240 KB)
+1204.079 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvULRQETGQ284lg, 26252831, 10240 KB)
+1205.389 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip (2498e1a764f2cb50dc41651ddff85dee)
+1205.398 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip: skipped: user has unchecked updraft_delete_local option
+1205.401 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads11.zip): 25637 KB in 9s (2821 KB/s)
+1205.590 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1205.595 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip
+1207.994 (2) Dropbox chunked upload: 39.7 % uploaded (AAAAAAABvUO5Tb5NjYGv7A, 10485760, 10240 KB)
+1210.055 (2) Dropbox chunked upload: 79.5 % uploaded (AAAAAAABvUO5Tb5NjYGv7A, 20971520, 10240 KB)
+1211.564 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUO5Tb5NjYGv7A, 26381949, 10240 KB)
+1212.891 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip (d778e8f38739ae8524deb0cd8818d06f)
+1212.903 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip: skipped: user has unchecked updraft_delete_local option
+1212.906 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads12.zip): 25763 KB in 7s (3523 KB/s)
+1213.103 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1213.108 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip
+1215.072 (2) Dropbox chunked upload: 38 % uploaded (AAAAAAABvUT0RdVGvQI5Yw, 10485760, 10240 KB)
+1216.858 (2) Dropbox chunked upload: 76 % uploaded (AAAAAAABvUT0RdVGvQI5Yw, 20971520, 10240 KB)
+1219.313 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUT0RdVGvQI5Yw, 27576168, 10240 KB)
+1220.787 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip (73d97e681526efae2c771dd0e7217a5e)
+1220.799 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip: skipped: user has unchecked updraft_delete_local option
+1220.802 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads13.zip): 26929 KB in 7s (3499 KB/s)
+1220.989 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1220.993 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip
+1223.141 (2) Dropbox chunked upload: 39.5 % uploaded (AAAAAAABvUX3hbKuxSSHwQ, 10485760, 10240 KB)
+1225.030 (2) Dropbox chunked upload: 79 % uploaded (AAAAAAABvUX3hbKuxSSHwQ, 20971520, 10240 KB)
+1226.769 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUX3hbKuxSSHwQ, 26553011, 10240 KB)
+1228.336 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip (77e33b096306f59dcb46f146ac871498)
+1228.346 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip: skipped: user has unchecked updraft_delete_local option
+1228.349 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads14.zip): 25930 KB in 7s (3525 KB/s)
+1228.588 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1228.592 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip
+1231.214 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUYcQ9pri-eFQw, 9980214, 10240 KB)
+1232.680 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip (32e88f4fd4f783f0131cc45cfbf627e2)
+1232.691 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip: skipped: user has unchecked updraft_delete_local option
+1232.694 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-uploads15.zip): 9746 KB in 4s (2376 KB/s)
+1232.877 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1232.880 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip
+1233.993 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUdMHtEycVC35Q, 1208664, 10240 KB)
+1235.371 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip (6bf9b3aa2847c565adee47a32f371515)
+1235.384 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip: skipped: user has unchecked updraft_delete_local option
+1235.387 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-others.zip): 1180 KB in 2s (470 KB/s)
+1235.571 (2) Dropbox error: exception (Dropbox_BadRequestException) occurred whilst getting account info: Error in call to API function "users/get_space_usage": request body: could not decode input as JSON
+1235.575 (2) Dropbox: Attempt to upload: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz to: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz
+1236.456 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAABvUiR-vBhgP6Ntg, 938791, 10240 KB)
+1238.723 (2) Recording as successfully uploaded: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz (d8b70b4e301778d65367eca65195f32f)
+1238.735 (2) Deleting local file: backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz: skipped: user has unchecked updraft_delete_local option
+1238.738 (2) Dropbox: File upload success (backup_2020-07-23-0503_Chef_Robert_Dorsey_a816bdaf245d-db.gz): 916 KB in 3s (289 KB/s)
+1238.754 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=2
+1238.758 (2) Number of backup sets in history: 5; groups (db): 1
+1238.761 (2) Examining (for databases) backup set with group_id=0, nonce=a816bdaf245d, datestamp=1595480630 (Jul 23 2020 05:03:50)
+1238.763 (2) This backup set is the backup set just made, so will not be deleted.
+1238.763 (2) Examining (for databases) backup set with group_id=0, nonce=f5a32e14d9e4, datestamp=1595384484 (Jul 22 2020 02:21:24)
+1238.763 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1238.766 (2) Examining (for databases) backup set with group_id=0, nonce=681bc934f520, datestamp=1593138999 (Jun 26 2020 02:36:39)
+1238.766 (2) 1593138999: db: this set includes a database (backup_2020-06-26-0236_Chef_Robert_Dorsey_681bc934f520-db.gz); db count is now 2
+1238.766 (2) 1593138999: db: over retain limit (2); will delete this database
+1238.766 (2) Delete file: backup_2020-06-26-0236_Chef_Robert_Dorsey_681bc934f520-db.gz, service=dropbox
+1238.769 (2) Deleting local copy (backup_2020-06-26-0236_Chef_Robert_Dorsey_681bc934f520-db.gz)
+1238.774 (2) Dropbox: request deletion: backup_2020-06-26-0236_Chef_Robert_Dorsey_681bc934f520-db.gz
+1238.988 (2) Dropbox error: path_lookup (line: 224, file: /nas/content/live/rdcestaging/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1238.997 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1238.999 (2) Examining (for databases) backup set with group_id=0, nonce=a39bd546f0f4, datestamp=1592534705 (Jun 19 2020 02:45:05)
+1238.999 (2) 1592534705: db: this set includes a database (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-db.gz); db count is now 2
+1238.999 (2) 1592534705: db: over retain limit (2); will delete this database
+1238.999 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-db.gz, service=dropbox
+1239.002 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-db.gz)
+1239.007 (2) Dropbox: request deletion: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-db.gz
+1239.288 (2) Dropbox error: path_lookup (line: 224, file: /nas/content/live/rdcestaging/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1239.296 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1239.299 (2) Examining (for databases) backup set with group_id=0, nonce=e3fa1a7eda0d, datestamp=1591929411 (Jun 12 2020 02:36:51)
+1239.299 (2) Number of backup sets in history: 5; groups (files): 1
+1239.303 (2) Examining (for files) backup set with nonce=a816bdaf245d, datestamp=1595480630 (Jul 23 2020 05:03:50)
+1239.303 (2) This backup set is the backup set just made, so will not be deleted.
+1239.307 (2) This backup set is the backup set just made, so will not be deleted.
+1239.307 (2) This backup set is the backup set just made, so will not be deleted.
+1239.307 (2) This backup set is the backup set just made, so will not be deleted.
+1239.307 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1239.310 (2) Examining (for files) backup set with nonce=f5a32e14d9e4, datestamp=1595384484 (Jul 22 2020 02:21:24)
+1239.310 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1239.311 (2) Examining (for files) backup set with nonce=681bc934f520, datestamp=1593138999 (Jun 26 2020 02:36:39)
+1239.311 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+1239.314 (2) Examining (for files) backup set with nonce=a39bd546f0f4, datestamp=1592534705 (Jun 19 2020 02:45:05)
+1239.314 (2) plugins: over retain limit (3); will delete this file entity
+1239.314 (2) themes: over retain limit (3); will delete this file entity
+1239.314 (2) uploads: over retain limit (3); will delete this file entity
+1239.314 (2) others: over retain limit (3); will delete this file entity
+1239.314 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins.zip, service=dropbox
+1239.317 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins.zip)
+1239.324 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins2.zip, service=dropbox
+1239.328 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins2.zip)
+1239.332 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins3.zip, service=dropbox
+1239.337 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins3.zip)
+1239.340 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-themes.zip, service=dropbox
+1239.345 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-themes.zip)
+1239.350 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-themes2.zip, service=dropbox
+1239.355 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-themes2.zip)
+1239.358 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads.zip, service=dropbox
+1239.363 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads.zip)
+1239.368 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads2.zip, service=dropbox
+1239.372 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads2.zip)
+1239.376 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads3.zip, service=dropbox
+1239.380 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads3.zip)
+1239.386 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads4.zip, service=dropbox
+1239.391 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads4.zip)
+1239.395 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads5.zip, service=dropbox
+1239.399 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads5.zip)
+1239.405 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads6.zip, service=dropbox
+1239.410 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads6.zip)
+1239.416 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads7.zip, service=dropbox
+1239.421 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads7.zip)
+1239.425 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads8.zip, service=dropbox
+1239.429 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads8.zip)
+1239.434 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads9.zip, service=dropbox
+1239.438 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads9.zip)
+1239.442 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads10.zip, service=dropbox
+1239.447 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads10.zip)
+1239.453 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads11.zip, service=dropbox
+1239.458 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads11.zip)
+1239.464 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads12.zip, service=dropbox
+1239.469 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads12.zip)
+1239.473 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads13.zip, service=dropbox
+1239.477 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads13.zip)
+1239.481 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads14.zip, service=dropbox
+1239.483 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-uploads14.zip)
+1239.489 (2) Delete file: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-others.zip, service=dropbox
+1239.493 (2) Deleting local copy (backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-others.zip)
+1239.499 (2) Dropbox: request deletion: backup_2020-06-19-0245_Chef_Robert_Dorsey_a39bd546f0f4-plugins.zip
+1239.704 (2) Dropbox error: path_lookup (line: 224, file: /nas/content/live/rdcestaging/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1239.713 (2) This backup set is now empty; will remove from history
+1239.715 (2) Deleting log file (log.a39bd546f0f4.txt)
+1239.720 (2) Examining (for files) backup set with nonce=e3fa1a7eda0d, datestamp=1591929411 (Jun 12 2020 02:36:51)
+1239.720 (2) plugins: over retain limit (3); will delete this file entity
+1239.720 (2) themes: over retain limit (3); will delete this file entity
+1239.720 (2) uploads: over retain limit (3); will delete this file entity
+1239.720 (2) others: over retain limit (3); will delete this file entity
+1239.721 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins.zip, service=dropbox
+1239.725 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins.zip)
+1239.728 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins2.zip, service=dropbox
+1239.732 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins2.zip)
+1239.735 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins3.zip, service=dropbox
+1239.739 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins3.zip)
+1239.741 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-themes.zip, service=dropbox
+1239.745 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-themes.zip)
+1239.746 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-themes2.zip, service=dropbox
+1239.750 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-themes2.zip)
+1239.753 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads.zip, service=dropbox
+1239.755 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads.zip)
+1239.761 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads2.zip, service=dropbox
+1239.765 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads2.zip)
+1239.768 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads3.zip, service=dropbox
+1239.772 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads3.zip)
+1239.775 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads4.zip, service=dropbox
+1239.779 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads4.zip)
+1239.782 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads5.zip, service=dropbox
+1239.785 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads5.zip)
+1239.788 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads6.zip, service=dropbox
+1239.790 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads6.zip)
+1239.796 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads7.zip, service=dropbox
+1239.800 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads7.zip)
+1239.803 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads8.zip, service=dropbox
+1239.807 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads8.zip)
+1239.810 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads9.zip, service=dropbox
+1239.815 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads9.zip)
+1239.818 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads10.zip, service=dropbox
+1239.822 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads10.zip)
+1239.826 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads11.zip, service=dropbox
+1239.830 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads11.zip)
+1239.835 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads12.zip, service=dropbox
+1239.839 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads12.zip)
+1239.843 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads13.zip, service=dropbox
+1239.846 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-uploads13.zip)
+1239.850 (2) Delete file: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-others.zip, service=dropbox
+1239.854 (2) Deleting local copy (backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-others.zip)
+1239.858 (2) Dropbox: request deletion: backup_2020-06-12-0236_Chef_Robert_Dorsey_e3fa1a7eda0d-plugins.zip
+1240.081 (2) Dropbox error: path_lookup (line: 224, file: /nas/content/live/rdcestaging/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1240.091 (2) This backup set is now empty; will remove from history
+1240.095 (2) Deleting log file (log.e3fa1a7eda0d.txt)
+1240.098 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1240.113 (2) Resume backup (a816bdaf245d, 2): finish run
+1240.120 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+1240.133 (2) No email will/can be sent - the user has not configured an email address.
+1240.136 (2) The backup apparently succeeded (with warnings) and is now complete

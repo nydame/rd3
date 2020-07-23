@@ -1,0 +1,117 @@
+.top_bar 
+{
+	border: 0;
+	height: auto !important;
+}
+
+.logo_container
+{
+	float: none;
+	margin: auto;
+	height: auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#logo_transparent.hidden, #logo_normal.hidden
+{
+	display: none;
+}
+
+.logo_align
+{
+	display: block;
+}
+
+.menu_buttons_container
+{
+	float: none;
+	display: inline-block;
+	margin: auto;
+	height: auto;
+	text-align: center;
+}
+
+.menu_buttons_content
+{
+	display: inline-block;
+}
+
+#menu_wrapper
+{
+	text-align: center;
+}
+
+#nav_wrapper
+{
+	display: inline-block;
+	margin: 0;
+	height: auto;
+	float: none;
+}
+
+.nav_wrapper_inner
+{
+	display: inline-block;
+}
+
+#menu_wrapper .nav ul li a, #menu_wrapper div .nav li > a
+{
+	padding: 17px 15px 18px 15px;
+}
+
+.menu_content_classic .menu_title, .menu_content_classic .menu_price
+{
+	background-image: none !important;
+	background: #fff;
+}
+
+#tg_reservation
+{
+	margin-top: -6px;
+}
+
+@media only screen and (max-width: 960px) {
+	.logo_wrapper img
+	{
+		width: auto !important;
+	}
+	
+	.logo_container
+	{
+		display: table;
+		height: 100%;
+		margin: 0;
+		float: left;
+	}
+	
+	#nav_wrapper
+	{
+		float: right;
+		display: table;
+		height: 100%;
+	}
+	
+	.nav_wrapper_inner, .logo_align
+	{
+		display: table-cell;
+	}
+	
+	.menu_buttons_container
+	{
+		float: right;
+		display: table;
+		height: 100%;
+	}
+	
+	.menu_buttons_content
+	{
+		display: table-cell;
+	}
+	
+	#nav_wrapper
+	{
+		display: table !important;
+	}
+}

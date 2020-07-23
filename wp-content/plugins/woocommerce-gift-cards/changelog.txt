@@ -1,0 +1,82 @@
+*** WooCommerce Gift Cards ***
+
+2020.06.19 - version 1.3.3
+* Fix - Fatal error in loopback test handler when running an older version WordPress.
+
+2020.06.18 - version 1.3.2
+* Feature - Added filter to display the balance left in individual codes redeemed via the cart/checkout form - use add_filter( 'woocommerce_gc_checkout_show_remaining_balance_per_gift_card', '__return_true' );
+* Feature - Check if the server is able to perform loopback requests and display a warning if the test fails.
+* Feature - Check if WooCommerce is able to schedule tasks and display a warning if the test fails.
+* Fix - Fixed a rare fatal error occurring after deleting a gift card code from the database.
+* Fix - Failure to send recipient notifications for gift cards with a future delivery under WooCommerce 3.3 and 3.4.
+* Fix - Gift card notification e-mails not styled properly under WooCommerce 3.3-3.5.
+
+2020.06.08 - version 1.3.1
+* Fix - All products showing as Gift Cards after an Export / Import operation.
+
+2020.06.05 - version 1.3.0
+* Feature - Manually add gift card products in editable orders..
+* Tweak - When purchasing a gift card with a future delivery date, the recipient notification is now scheduled to be sent at the same time that the gift card was added to the cart.
+
+2020.06.04 - version 1.2.3
+* Fix - Fixed non-static method warning under Stripe compatibility.
+
+2020.06.01 - version 1.2.2
+* Tweak - Made 'giftcards' account endpoint url translatable/editable.
+* Fix - Prevented Payment Request buttons from displaying when purchasing Gift Card products.
+* Fix - Prevented 'Recipient E-mail Image' option from showing up in product metaboxes when the 'Gift Card' option is disabled.
+
+2020.05.17 - version 1.2.1
+* Fix - Make e-mail template changes backwards compatible.
+* Tweak - Declared compatibility with WooCommerce 4.2.
+
+2020.05.15 - version 1.2.0
+* Feature - Add option to define recipient e-mail image.
+* Feature - Manually apply/remove gift card codes in editable orders.
+* Fix - Account balance not updating when manually deleting a gift card.
+* Fix - Invalid delivery date when using a foreign locale.
+* Fix - Images in recipient e-mails not visible in some versions of Microsoft Outlook.
+
+2020.05.01 - version 1.1.5
+* Tweak - Improved multiple recipient e-mails form input placeholder.
+* Tweak - Made multiple e-mails delimiter filterable.
+* Fix - Fixed a error triggered while paying under WooCommerce 3.3-3.5 due to a WooCommerce bug.
+* Fix - Prevented Apple Pay button from displaying in Gift Card product pages.
+
+2020.04.24 - version 1.1.4
+* Fix - Fatal error when processing an order with deleted gift card products.
+
+2020.04.23 - version 1.1.3
+* Fix - Order items meta are now treated as unique.
+
+2020.04.17 - version 1.1.2
+* Fix - Expiration date not working when purchasing variable gift cards.
+
+2020.04.17 - version 1.1.1
+* Important - Declared support for WooCommerce 4.1.
+* Feature: Added support for the 'WooCommerce Print Invoices and Packing Lists' extension by Skyverge.
+* Feature: Added support for 'WooCommerce PDF Invoices & Packing Slips' plugin by Ewout Fernhout.
+* Tweak - Prevent script from loading unless needed.
+* Fix - Fatal error when sending e-mail recipient notifications under WooCommerce versions lower than 3.7.
+* Fix - Form labels are now translatable.
+
+2020.04.01 - version 1.1.0
+* Feature - 'Gift Card received' e-mail content is now editable via 'WooCommerce > Settings > Emails'.
+* Feature - Introduced 'Add to your account' action in recipient e-mails when the recipient e-mail can be associated with an active customer.
+* Feature - Added ability to turn off redeeming store-wide.
+* Fix - Gift card codes are now generated (and recipient notifications sent) when an order is paid - not when it is completed.
+
+2020.03.23 - version 1.0.3
+* Tweak - Gift Card form preserves data when switching Variations.
+
+2020.03.21 - version 1.0.2
+* Fix - Gift card product fields are now properly escaping quotes.
+* Fix - Added compatibility with Name Your Price to let customers choose the value of their gift cards.
+
+2020.03.18 - version 1.0.1
+* Feature - Gift card messages are now treated as private/confidential data for shop managers.
+* Fix - Gift cards can now be ordered again without hiccups.
+* Fix - Gift card messages missing new line characters in some cases.
+
+2020.03.16 - version 1.0.0
+* Initial release.

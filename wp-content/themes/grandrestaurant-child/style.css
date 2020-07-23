@@ -1,0 +1,279 @@
+/*
+Theme Name: Grand Restaurant Child
+Theme URI: http://themes.themegoods.com/grandrestaurant/demo1
+description: >-
+  Grand Restaurant Child Theme
+Author: Melissa Patenaude
+Author URI: http://fewofmany.com
+Template: grandrestaurant
+Version: 1.0.0
+License: GNU General Public License
+License URI: http://themeforest.net/licenses/regular_extended
+Text Domain: grandrestaurant
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+*/
+
+
+/*LOOK OPTIONS*/
+/*V2*/
+
+.page-id-4047 .ppb_title_first {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    color: #9C9287;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.page-id-4047 h1 {
+    font-family: noto serif, serif;
+    color: #5B224E;
+    font-weight: 500;
+    font-size: 44px;
+	line-height: 44px;
+}
+
+.page-id-4047 h2 {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    color: #525252;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+.page-id-4047 img.size-full.wp-image-4127.alignnone {
+    height: 33px;
+    width: auto;
+    margin: 0px 0px 30px 0px;
+}
+
+.page-id-4047 .one_half {
+    text-align: left;
+}
+
+/*NAVIGATION*/
+
+#tg_reservation{
+	display:none;
+}
+
+#tg_sidemenu_reservation {
+    display: none !important;
+}
+
+.logo_wrapper img{
+	max-height: 54px !important;
+	width: auto !important;
+}
+
+
+/*HERO*/
+
+.hero-logo{
+	-webkit-filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.1)) drop-shadow(0px 4px 3px rgba(0,0,0,0.4)) drop-shadow(0px 8px 13px rgba(0,0,0,0.1)) drop-shadow(0px 18px 23px rgba(0,0,0,0.1));
+    filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.1)) drop-shadow(0px 4px 3px rgba(0,0,0,0.4)) drop-shadow(0px 8px 13px rgba(0,0,0,0.1)) drop-shadow(0px 18px 23px rgba(0,0,0,0.1));
+}
+
+/*TAGLINE*/
+.tagline{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: 300;
+	line-height:40px;
+	padding: 30px;
+}
+
+.post_detail{
+	margin:0px;
+}
+
+/*CONTENT BOXES*/
+.one_half.last{
+	text-align: left;
+}
+
+.one_half{
+	text-align: left;
+}
+
+.one_half a, .one_half.last a{
+	text-decoration: underline;
+}
+
+
+
+/*TESTIMONIALS*/
+
+.one.withsmallpadding{
+	background-attachment: fixed;
+	padding: 100px 0px;
+}
+
+.testimonial_stars{
+	display:none;
+}
+
+.flexslider{
+	background: rgba(0,0,0,0.5);
+}
+
+.testimonial_slider_wrapper {
+    font-size: 28px;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.testimonial_slider_meta {
+    margin-top: 22px;
+}
+
+.post_header .post_detail, .recent_post_detail, .post_detail, .thumb_content span, .portfolio_desc .portfolio_excerpt, .testimonial_customer_position, .testimonial_customer_company{
+	font-size: 14px;
+    text-transform: none;
+}
+
+.flexslider .slides > li{
+	padding: 20px 10px 30px 10px;
+}
+
+/*FAQs*/
+.ewd-ufaq-post-margin-symbol span {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+/*MENUS*/
+.menu_content_classic .menu_highlight, .menu_content_classic .menu_order{
+	line-height: 14px !important;
+}
+
+/*BLOG POSTS*/
+.fullwidth_comment_wrapper {
+    display: none;
+}
+
+.page-id-4008 .post_detail{
+	display: none;
+}
+
+.page_title_wrapper .post_detail {
+    display: none;
+}
+
+
+/*BUTTONS*/
+input[type=submit], input[type=button], a.button, .button{
+	font-size:16px;
+	padding: 9px 16px 9px 16px;
+	border: 1px solid #242B3B;
+}
+
+input[type=button]:hover, input[type=submit]:hover, a.button:hover, .button:hover, .button.submit, a.button.white:hover, .button.white:hover, a.button.white:active, .button.white:active{
+	border: 1px solid #242B3B;
+	color: #242B3B;
+	background-color: white;
+}
+
+.ppb_fullwidth_button .button{
+	float: none;
+}
+
+.one.ppb_fullwidth_button{
+	text-align: center;
+}
+
+/*CTA SECTION*/
+
+
+.ppb_fullwidth_button h2.title{
+	float: none;	
+}
+
+
+/*FORMS*/
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
+	padding: 13px 10px 13px 10px;
+    font-size: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Verdana,sans-serif;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    -webkit-transition: border-color linear .3s;
+    -moz-transition: border-color linear .3s;
+    -o-transition: border-color linear .3s;
+    transition: border-color linear .3s;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 0;
+	width: 100%;
+}
+
+textarea{
+	height: 100px;
+}
+
+/*JOIN MAILING LIST*/
+.mc4wp-form input[type="submit"] {
+    height: 3.1rem;
+}
+
+.newsletter-form-field{
+		width: 30%;
+	}
+
+/*FOOTER*/
+/*#footer ul.sidebar_widget{
+	width: 70% !important;
+}
+
+#footer .sidebar_widget.three > li {
+    width: 26%;
+    margin-right: 3%;
+	margin-left: 3%;
+}
+
+#footer .sidebar_widget.three > li:nth-child(3){
+	width: 26%;
+	margin-right: 3%;
+	margin-left: 3%;
+}*/
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 767px){
+	
+	.top_bar.hasbg {
+    background-image: none;
+	}
+	
+	.top_bar.hasbg #mobile_nav_icon {
+    border-color: #242b3b;
+	}
+	
+	.newsletter-form-field{
+		width: 80%;
+	}
+	
+	.fullwidth_image {
+    height: 17rem !important;
+}
+	
+	input[type=text], input[type=password], input[type=email], input[type=url], input[type=date], input.wpcf7-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, select{
+		margin: 20px;
+	}
+	
+	#copyright {
+		padding: 0px !important;
+	}
+	
+	.footer_bar_wrapper {
+    	margin-top: 0px;
+	}
+	
+	#footer {
+    	padding-bottom: 20px;
+	}
+	
+}
