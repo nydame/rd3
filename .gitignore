@@ -6,6 +6,8 @@
 *.log
 *.swp
 Thumbs.db
+.htaccess*
+htaccess*
 
 # wordpress specific
 wp-config.php
