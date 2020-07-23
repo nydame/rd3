@@ -9,6 +9,7 @@ Thumbs.db
 
 # wordpress specific
 wp-config.php
+wp-config.php_copy
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
