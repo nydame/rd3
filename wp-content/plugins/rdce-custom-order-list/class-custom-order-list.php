@@ -45,9 +45,8 @@ class Custom_Order_List {
     public function do_custom_order_column($column, $post_id) {
         switch ($column) {
             case 'pickup_date':
-                $order_meta = get_post_meta($post_id);
-                if (count($pickup_date = $order_meta['pickup_date']) > 0) {
-                    _e($pickup_date[0], RDCE_CUSTOM_ORDER_LIST_TEXT_DOMAIN);
+                if (count($pickup_dates = get_post_meta($post_id, 'pickup_date')) > 0) {
+                    _e($pickup_dates[0], RDCE_CUSTOM_ORDER_LIST_TEXT_DOMAIN);
                 }
                 break;
             default:
