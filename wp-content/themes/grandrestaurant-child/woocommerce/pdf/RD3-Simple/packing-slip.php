@@ -43,7 +43,7 @@ do_action( 'wpo_wcpdf_before_document', $this->type, $this->order );
 			if ( isset($order_meta['_shipping_phone']) ) { 
 			$phone = $order_meta['_shipping_phone'][0]; 
 			$pattern = 
-				'/^\s*1?\s*\(?\s*(\d{3})\s*\)?\s*(\d{3})\s*-?\s*(\d{4})/';
+				'/^\s*1?\s*\(?\s*(\d{3})\s*\)?\s*-?\s*(\d{3})\s*-?\s*(\d{4})/';
 			$replacement = '${1}${2}${3}';
 			$phone_digits = preg_replace($pattern, $replacement, $phone);
 			$us_formatted_phone = "(" . substr($phone_digits, 0, 3) . ") " . substr($phone_digits, 3, 3) . " - " . substr($phone_digits, 6, 4); ?>
